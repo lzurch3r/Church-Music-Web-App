@@ -5,16 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sacred Music Archive Player</title>
     <style>
-        /* Modern CSS Reset & Theme Properties mirroring Gospel Library */
+        /* Modern CSS Reset & Theme Properties mirroring Sacred Music Green App Layout */
         :root {
-            --primary-color: #2b547e; /* Royal Church Blue */
-            --accent-color: #4a7ebb;
-            --background-light: #f5f7fa;
+            --primary-color: #1e4620; /* Sacred Music Deep Emerald Green */
+            --accent-color: #388e3c;  /* App Highlight Leaf Green */
+            --background-light: #f4f6f4;
             --surface-white: #ffffff;
             --text-dark: #2c3e50;
             --text-muted: #7f8c8d;
-            --border-color: #e2e8f0;
+            --border-color: #e2e8e2;
             --dock-height: 80px;
+            --card-shadow: 0 4px 6px rgba(0,0,0,0.01);
+            --card-hover-shadow: 0 6px 12px rgba(0,0,0,0.05);
+        }
+
+        /* Dark Theme Variables */
+        [data-theme="dark"] {
+            --primary-color: #81c784; 
+            --accent-color: #4caf50;
+            --background-light: #121212; 
+            --surface-white: #1e1e1e;    
+            --text-dark: #e0e0e0;        
+            --text-muted: #a0a0a0;       
+            --border-color: #2d2d2d;
+            --card-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            --card-hover-shadow: 0 6px 16px rgba(0,0,0,0.4);
         }
 
         * {
@@ -22,6 +37,7 @@
             margin: 0;
             padding: 0;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            transition: background-color 0.25s ease, border-color 0.25s ease;
         }
 
         body {
@@ -30,10 +46,9 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            padding-bottom: calc(var(--dock-height) + 20px);
+            padding-bottom: calc(var(--dock-height) + 40px);
         }
 
-        /* Top Header Navigation bar */
         header {
             background-color: var(--surface-white);
             border-bottom: 1px solid var(--border-color);
@@ -45,13 +60,13 @@
         }
 
         .header-container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
-            gap: 10px;
+            gap: 15px;
         }
 
         header h1 {
@@ -60,11 +75,18 @@
             font-weight: 700;
         }
 
-        /* Modern Search Input Bar */
+        .header-controls {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            width: 100%;
+            max-width: 650px;
+            justify-content: flex-end;
+        }
+
         .search-box {
             position: relative;
-            width: 100%;
-            max-width: 350px;
+            flex-grow: 1;
         }
 
         .search-box input {
@@ -75,128 +97,205 @@
             font-size: 0.95rem;
             outline: none;
             background-color: var(--background-light);
-            transition: all 0.2s ease;
+            color: var(--text-dark);
         }
 
-        .search-box input:focus {
+        .btn {
+            background-color: var(--background-light);
+            border: 1px solid var(--border-color);
+            padding: 8px 14px;
+            border-radius: 20px;
+            cursor: pointer;
+            color: var(--text-dark);
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .btn:hover {
             border-color: var(--accent-color);
-            background-color: var(--surface-white);
-            box-shadow: 0 0 0 3px rgba(74, 126, 187, 0.15);
+            color: var(--accent-color);
         }
 
-        /* Layout Main Containers */
-        main {
-            max-width: 1200px;
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white !important;
+            border: none;
+        }
+
+        .btn-primary:hover { opacity: 0.9; }
+
+        /* Authentication Dropdown Drawer Panel UI */
+        .auth-container {
+            position: relative;
+        }
+
+        .auth-dropdown {
+            display: none;
+            position: absolute;
+            top: 45px;
+            right: 0;
+            background-color: var(--surface-white);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            z-index: 101;
+        }
+
+        .auth-dropdown input {
+            width: 100%;
+            padding: 8px 12px;
+            margin-bottom: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            background-color: var(--background-light);
+            color: var(--text-dark);
+            outline: none;
+        }
+
+        .auth-dropdown input:focus { border-color: var(--accent-color); }
+        
+        .auth-dropdown-footer {
+            margin-top: 10px;
+            font-size: 0.8rem;
+            text-align: center;
+            color: var(--text-muted);
+            cursor: pointer;
+        }
+
+        .auth-dropdown-footer:hover { color: var(--accent-color); }
+
+        .user-badge {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            max-width: 120px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /* Responsive Main Layout Split Workspace */
+        .workspace {
+            max-width: 1400px;
             width: 100%;
             margin: 0 auto;
             padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 380px;
+            gap: 25px;
             flex-grow: 1;
         }
 
-        /* Dynamic Collection Book Tabs */
+        @media (max-width: 1024px) { .workspace { grid-template-columns: 1fr; } }
+
         .collections-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
         }
 
         .book-card {
             background-color: var(--surface-white);
             border: 1px solid var(--border-color);
             border-radius: 12px;
-            padding: 20px;
+            padding: 15px;
             cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.01);
+            box-shadow: var(--card-shadow);
         }
 
-        .book-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.05);
-            border-color: var(--accent-color);
-        }
-
-        .book-card h3 {
-            color: var(--primary-color);
-            font-size: 1.15rem;
-            margin-bottom: 8px;
-        }
-
+        .book-card:hover { transform: translateY(-2px); border-color: var(--accent-color); }
+        .book-card h3 { color: var(--primary-color); font-size: 1.05rem; margin-bottom: 6px; }
+        
         .book-card .track-count {
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             color: var(--text-muted);
             background: var(--background-light);
-            padding: 4px 8px;
-            border-radius: 12px;
+            padding: 2px 6px;
+            border-radius: 10px;
             align-self: flex-start;
         }
 
-        /* Track List Output Representation */
-        .track-list-section {
+        .track-list-section, .playlist-section {
             background-color: var(--surface-white);
             border: 1px solid var(--border-color);
             border-radius: 12px;
             padding: 10px 0;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.01);
+            box-shadow: var(--card-shadow);
+            align-self: start;
         }
 
         .section-title {
-            padding: 15px 20px;
-            font-size: 1.2rem;
+            padding: 12px 20px;
+            font-size: 1.15rem;
             border-bottom: 1px solid var(--border-color);
             color: var(--primary-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .playlist-actions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            padding: 10px 20px;
+            border-bottom: 1px solid var(--border-color);
+            background-color: rgba(0,0,0,0.01);
         }
 
         .track-item {
             display: flex;
             align-items: center;
-            padding: 14px 20px;
+            padding: 12px 20px;
             border-bottom: 1px solid var(--border-color);
             cursor: pointer;
-            transition: background 0.15s ease;
         }
 
-        .track-item:last-child {
-            border-bottom: none;
-        }
-
-        .track-item:hover {
-            background-color: rgba(74, 126, 187, 0.05);
-        }
-
+        .track-item:last-child { border-bottom: none; }
+        .track-item:hover { background-color: rgba(76, 175, 80, 0.05); }
         .track-item.active {
-            background-color: rgba(43, 84, 126, 0.08);
-            border-left: 4px solid var(--primary-color);
+            background-color: rgba(76, 175, 80, 0.12);
+            border-left: 4px solid var(--accent-color);
             padding-left: 16px;
         }
 
-        .track-index {
-            width: 35px;
-            font-size: 0.9rem;
-            color: var(--text-muted);
-            font-weight: 600;
-        }
-
-        .track-info {
-            flex-grow: 1;
-        }
-
+        .track-index { width: 30px; font-size: 0.85rem; color: var(--text-muted); font-weight: 600; }
+        .track-info { flex-grow: 1; min-width: 0; }
+        
         .track-title {
-            font-size: 1rem;
+            font-size: 0.95rem;
             font-weight: 500;
             color: var(--text-dark);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
-        .track-item.active .track-title {
-            color: var(--primary-color);
-            font-weight: 600;
+        .action-btn {
+            background: none;
+            border: none;
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            cursor: pointer;
+            padding: 4px 8px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
-        /* Persistent Bottom Player Drawer Box */
+        .action-btn:hover { background-color: rgba(0,0,0,0.05); color: var(--accent-color); }
+        .remove-btn:hover { color: #e74c3c !important; }
+
         .audio-player-dock {
             position: fixed;
             bottom: 0;
@@ -214,7 +313,7 @@
         }
 
         .player-container {
-            max-width: 1200px;
+            max-width: 1400px;
             width: 100%;
             display: flex;
             align-items: center;
@@ -222,60 +321,21 @@
             gap: 20px;
         }
 
-        .current-meta {
-            display: flex;
-            flex-direction: column;
-            width: 25%;
-            min-width: 150px;
-        }
+        .current-meta { display: flex; flex-direction: column; width: 25%; min-width: 150px; }
+        #dock-title { font-size: 0.95rem; font-weight: 600; color: var(--text-dark); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        #dock-collection { font-size: 0.8rem; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        audio { width: 70%; height: 40px; }
 
-        #dock-title {
-            font-size: 0.95rem;
-            font-weight: 600;
-            color: var(--text-dark);
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
+        [data-theme="dark"] audio { filter: invert(0.9) hue-rotate(180deg); }
+        #file-input { display: none; }
 
-        #dock-collection {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        audio {
-            width: 70%;
-            height: 40px;
-            outline: none;
-        }
-
-        /* Mobile Layout View Breakpoint Enhancements */
         @media (max-width: 768px) {
-            .header-container {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            .search-box {
-                max-width: 100%;
-            }
-            .player-container {
-                flex-direction: column;
-                gap: 5px;
-            }
-            .current-meta {
-                width: 100%;
-                text-align: center;
-            }
-            audio {
-                width: 100%;
-                height: 32px;
-            }
-            :root {
-                --dock-height: 105px;
-            }
+            .header-container { flex-direction: column; align-items: flex-start; }
+            .header-controls { max-width: 100%; }
+            .player-container { flex-direction: column; gap: 5px; }
+            .current-meta { width: 100%; text-align: center; }
+            audio { width: 100%; height: 32px; }
+            :root { --dock-height: 105px; }
         }
     </style>
 </head>
@@ -283,21 +343,58 @@
 
     <header>
         <div class="header-container">
-            <h1>🎵 Sacred Music Archive</h1>
-            <div class="search-box">
-                <input type="text" id="search-input" placeholder="Search hymns or songs..." oninput="filterTracks()">
+            <h1>🎵 Sacred Music</h1>
+            <div class="header-controls">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Search hymns or songs..." oninput="filterTracks()">
+                </div>
+                <button class="btn" onclick="toggleTheme()" id="theme-toggle">
+                    <span id="theme-icon">🌙</span> <span id="theme-text">Dark Mode</span>
+                </button>
+                
+                <!-- Account Interface Layer Hooks -->
+                <div class="auth-container">
+                    <button class="btn btn-primary" id="auth-panel-btn" onclick="toggleAuthDropdown()">Account</button>
+                    <div class="auth-dropdown" id="auth-dropdown">
+                        <!-- Contextually rendered sign-in forms view or signed-in state container -->
+                        <div id="auth-unauthenticated">
+                            <h4 id="auth-form-title" style="margin-bottom:12px;">Sign In</h4>
+                            <input type="email" id="auth-email" placeholder="Email Address">
+                            <input type="password" id="auth-password" placeholder="Password">
+                            <button class="btn btn-primary" style="width:100%; justify-content:center; margin-top:5px;" id="auth-primary-action-btn" onclick="handleAuthAction()">Log In</button>
+                            <div class="auth-dropdown-footer" id="auth-toggle-view-text" onclick="switchAuthMode()">Don't have an account? Sign Up</div>
+                        </div>
+                        <div id="auth-authenticated" style="display:none; text-align:center;">
+                            <p style="font-size:0.9rem; margin-bottom:15px;">Signed in securely as:<br><strong id="auth-user-email"></strong></p>
+                            <span id="cloud-sync-status" style="font-size:0.75rem; color:var(--accent-color); display:block; margin-bottom:15px;">☁️ Playlists Synchronized</span>
+                            <button class="btn" style="width:100%; justify-content:center; border-color:#e74c3c; color:#e74c3c;" onclick="handleSignOut()">Sign Out</button>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </header>
 
-    <main>
-        <div class="collections-grid" id="collections-container"></div>
-
-        <div class="track-list-section">
-            <h2 class="section-title" id="current-section-heading">All Collections</h2>
-            <div id="tracks-container"></div>
+    <div class="workspace">
+        <div>
+            <div class="collections-grid" id="collections-container"></div>
+            <div class="track-list-section">
+                <h2 class="section-title" id="current-section-heading">All Collections</h2>
+                <div id="tracks-container"></div>
+            </div>
         </div>
-    </main>
+
+        <div class="playlist-section">
+            <h2 class="section-title">✨ My Playlist</h2>
+            <div class="playlist-actions">
+                <button class="btn" onclick="exportPlaylist()">📤 File Save</button>
+                <button class="btn" onclick="document.getElementById('file-input').click()">📥 File Load</button>
+                <input type="file" id="file-input" accept=".json" onchange="importPlaylist(event)">
+            </div>
+            <div id="playlist-container" style="padding: 10px 0;"></div>
+        </div>
+    </div>
 
     <div class="audio-player-dock">
         <div class="player-container">
@@ -309,72 +406,212 @@
         </div>
     </div>
 
-    <script>
-        // Universal application states
+    <!-- Asynchronous Modern ES Module Import Bindings for Firebase SDK Core Features -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js";
+        import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-auth.js";
+        import { getFirestore, doc, setDoc, getDoc } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore.js";
+
+        // =============================================================
+        // paste your credentials generated inside the Firebase project portal here:
+        const firebaseConfig = {
+            apiKey: "YOUR_API_KEY",
+            authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+            projectId: "YOUR_PROJECT_ID",
+            storageBucket: "YOUR_PROJECT_ID.appspot.com",
+            messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+            appId: "YOUR_APP_ID"
+        };
+        // =============================================================
+
+        // Core App Component Instances
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        const db = getFirestore(app);
+
+        // Core Global Application Variables
         let musicLibrary = {};
         let flatTrackList = [];
+        let playlist = [];
         let currentActiveItem = null;
+        let currentUser = null;
+        let isSignUpMode = false;
+
+        // Bridge engine access boundaries directly across global window DOM scope 
+        window.toggleTheme = toggleTheme;
+        window.filterTracks = filterTracks;
+        window.toggleAuthDropdown = toggleAuthDropdown;
+        window.handleAuthAction = handleAuthAction;
+        window.switchAuthMode = switchAuthMode;
+        window.handleSignOut = handleSignOut;
+        window.showCollection = showCollection;
+        window.triggerAudioDock = triggerAudioDock;
+        window.playDirectly = playDirectly;
+        window.addToPlaylist = addToPlaylist;
+        window.removeFromPlaylist = removeFromPlaylist;
+        window.exportPlaylist = exportPlaylist;
+        window.importPlaylist = importPlaylist;
 
         document.addEventListener("DOMContentLoaded", () => {
+            initTheme();
             loadAndParseMarkdown();
+            
+            // Monitor real-time login state updates
+            onAuthStateChanged(auth, (user) => {
+                if (user) {
+                    currentUser = user;
+                    document.getElementById('auth-panel-btn').textContent = "👤 Profile";
+                    document.getElementById('auth-user-email').textContent = user.email;
+                    document.getElementById('auth-unauthenticated').style.display = 'none';
+                    document.getElementById('auth-authenticated').style.display = 'block';
+                    loadCloudPlaylist(user.uid);
+                } else {
+                    currentUser = null;
+                    document.getElementById('auth-panel-btn').textContent = "Account";
+                    document.getElementById('auth-unauthenticated').style.display = 'block';
+                    document.getElementById('auth-authenticated').style.display = 'none';
+                    loadLocalPlaylist(); // Fallback back into offline state storage arrays
+                }
+            });
         });
 
-        /**
-         * Reads the .md archive using standard AJAX fetch requests, 
-         * compiling the structured Markdown text elements into clean JSON.
-         */
+        /* Core Database Action Layers */
+        async function savePlaylistState() {
+            if (currentUser) {
+                document.getElementById('cloud-sync-status').textContent = "⏳ Syncing Cloud Data...";
+                try {
+                    await setDoc(doc(db, "playlists", currentUser.uid), { tracks: playlist });
+                    document.getElementById('cloud-sync-status').textContent = "☁️ Playlists Synchronized";
+                } catch (e) {
+                    document.getElementById('cloud-sync-status').textContent = "❌ Sync Error";
+                    console.error("Error saving cloud document state reference", e);
+                }
+            } else {
+                localStorage.setItem('sacred_playlist_state', JSON.stringify(playlist));
+            }
+        }
+
+        async function loadCloudPlaylist(uid) {
+            const docRef = doc(db, "playlists", uid);
+            try {
+                const docSnap = await getDoc(docRef);
+                if (docSnap.exists()) {
+                    playlist = docSnap.data().tracks || [];
+                } else {
+                    playlist = [];
+                }
+                renderPlaylist();
+            } catch (e) {
+                console.error("Could not fetch user database documents:", e);
+                loadLocalPlaylist();
+            }
+        }
+
+        function loadLocalPlaylist() {
+            const stored = localStorage.getItem('sacred_playlist_state');
+            playlist = stored ? JSON.parse(stored) : [];
+            renderPlaylist();
+        }
+
+        /* Identity Controller Action Modifiers */
+        function toggleAuthDropdown() {
+            const panel = document.getElementById('auth-dropdown');
+            panel.style.display = (panel.style.display === 'block') ? 'none' : 'block';
+        }
+
+        function switchAuthMode() {
+            isSignUpMode = !isSignUpMode;
+            document.getElementById('auth-form-title').textContent = isSignUpMode ? "Sign Up" : "Sign In";
+            document.getElementById('auth-primary-action-btn').textContent = isSignUpMode ? "Register Account" : "Log In";
+            document.getElementById('auth-toggle-view-text').textContent = isSignUpMode ? "Have an account? Log In" : "Don't have an account? Sign Up";
+        }
+
+        async function handleAuthAction() {
+            const email = document.getElementById('auth-email').value.trim();
+            const password = document.getElementById('auth-password').value;
+            const actionBtn = document.getElementById('auth-primary-action-btn');
+
+            if (!email || !password) { alert("Please complete both input elements completely."); return; }
+            actionBtn.disabled = true;
+
+            try {
+                if (isSignUpMode) {
+                    await createUserWithEmailAndPassword(auth, email, password);
+                    alert("Account setup completed securely!");
+                } else {
+                    await signInWithEmailAndPassword(auth, email, password);
+                }
+                document.getElementById('auth-dropdown').style.display = 'none';
+                document.getElementById('auth-email').value = '';
+                document.getElementById('auth-password').value = '';
+            } catch (err) {
+                alert(err.message);
+            } finally {
+                actionBtn.disabled = false;
+            }
+        }
+
+        async function handleSignOut() {
+            try {
+                await signOut(auth);
+                document.getElementById('auth-dropdown').style.display = 'none';
+            } catch (err) {
+                alert("Could not complete the sign out operation correctly.");
+            }
+        }
+
+        /* Legacy Logic Layout Engines preserving UI design paths */
+        function initTheme() {
+            if (localStorage.getItem('theme') === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                document.getElementById('theme-icon').textContent = '☀️';
+                document.getElementById('theme-text').textContent = 'Light Mode';
+            }
+        }
+
+        function toggleTheme() {
+            const isDark = document.documentElement.hasAttribute('data-theme');
+            if (isDark) {
+                document.documentElement.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'light');
+                document.getElementById('theme-icon').textContent = '🌙';
+                document.getElementById('theme-text').textContent = 'Dark Mode';
+            } else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+                document.getElementById('theme-icon').textContent = '☀️';
+                document.getElementById('theme-text').textContent = 'Light Mode';
+            }
+        }
+
         function loadAndParseMarkdown() {
             fetch('Sacred_Music_Complete_Archive.md')
-                .then(response => {
-                    if (!response.ok) throw new Error("Could not find archive file.");
-                    return response.text();
-                })
+                .then(res => res.text())
                 .then(text => {
                     parseMarkdownData(text);
                     renderCollectionsGrid();
-                    showCollection(null); // Initially display all tracking entries
+                    showCollection(null);
                 })
-                .catch(err => {
-                    console.error(err);
-                    document.getElementById('tracks-container').innerHTML = 
-                        `<p style="padding: 20px; color: red;">Error: Could not locate 'Sacred_Music_Complete_Archive.md'. Please ensure the markdown file sits in the same server root path.</p>`;
+                .catch(() => {
+                    document.getElementById('tracks-container').innerHTML = `<p style="padding:20px; color:red;">Ensure 'Sacred_Music_Complete_Archive.md' sits in the same directory path.</p>`;
                 });
         }
 
-        /**
-         * Markdown Lexing Parser Engine
-         * Loops through rows to isolate collections (##) and table arrays (|)
-         */
         function parseMarkdownData(mdText) {
             const lines = mdText.split('\n');
             let currentCollection = "";
-
             lines.forEach(line => {
                 line = line.trim();
-                
-                // Identify Books / Collections
                 if (line.startsWith('## 📚 Collection:')) {
                     currentCollection = line.replace('## 📚 Collection:', '').trim();
                     musicLibrary[currentCollection] = [];
-                } 
-                // Identify Table Row Elements mapping individual tracks
-                else if (line.startsWith('|') && currentCollection) {
+                } else if (line.startsWith('|') && currentCollection) {
                     const columns = line.split('|').map(c => c.trim());
-                    // Filter out header definitions and structural dividers
                     if (columns.length >= 4 && !columns[1].includes('#') && !columns[1].includes('---')) {
-                        const index = columns[1];
-                        // Parse clean string contents out of bold markdown blocks (**Title**)
                         const title = columns[2].replace(/\*\*/g, '').trim();
-                        // Parse absolute link target out of the parentheses mask [Text](Link)
                         const linkMatch = columns[3].match(/\((https?:\/\/[^\)]+)\)/);
-                        
                         if (title && linkMatch) {
-                            const trackObj = {
-                                index: index,
-                                title: title,
-                                url: linkMatch[1],
-                                collection: currentCollection
-                            };
+                            const trackObj = { index: columns[1], title: title, url: linkMatch[1], collection: currentCollection };
                             musicLibrary[currentCollection].push(trackObj);
                             flatTrackList.push(trackObj);
                         }
@@ -383,107 +620,127 @@
             });
         }
 
-        /**
-         * Renders the dynamic dashboard selector cards matching Gospel Library layout behaviors.
-         */
         function renderCollectionsGrid() {
             const container = document.getElementById('collections-container');
-            container.innerHTML = '';
-
-            // Optional card template triggering all items collectively
-            const totalCount = flatTrackList.length;
-            container.innerHTML += `
-                <div class="book-card" onclick="showCollection(null)">
-                    <h3>All Collections Archive</h3>
-                    <span class="track-count">${totalCount} Songs Total</span>
-                </div>
-            `;
-
+            container.innerHTML = `<div class="book-card" onclick="showCollection(null)"><h3>All Tracks Archive</h3><span class="track-count">${flatTrackList.length} Songs</span></div>`;
             for (const [bookTitle, tracks] of Object.entries(musicLibrary)) {
                 if (tracks.length === 0) continue;
-                container.innerHTML += `
-                    <div class="book-card" onclick="showCollection('${bookTitle.replace(/'/g, "\\'")}')">
-                        <h3>${bookTitle}</h3>
-                        <span class="track-count">${tracks.length} Songs</span>
-                    </div>
-                `;
+                container.innerHTML += `<div class="book-card" onclick="showCollection('${bookTitle.replace(/'/g, "\\'")}')"><h3>${bookTitle}</h3><span class="track-count">${tracks.length} Songs</span></div>`;
             }
         }
 
-        /**
-         * Populates the track viewport window matching selected category parameters.
-         */
         function showCollection(bookTitle) {
             const container = document.getElementById('tracks-container');
-            const heading = document.getElementById('current-section-heading');
+            document.getElementById('current-section-heading').textContent = bookTitle ? `📚 Directory: ${bookTitle}` : "📚 Directory: All Public Tracks Indexed";
             container.innerHTML = '';
-
             let targetTracks = bookTitle ? musicLibrary[bookTitle] : flatTrackList;
-            heading.textContent = bookTitle ? `📚 Directory: ${bookTitle}` : "📚 Directory: All Public Tracks Indexed";
-
-            if (!targetTracks || targetTracks.length === 0) {
-                container.innerHTML = '<p style="padding:20px; color:var(--text-muted);">No playable assets inside this directory branch.</p>';
-                return;
-            }
 
             targetTracks.forEach((track, idx) => {
                 const div = document.createElement('div');
                 div.className = 'track-item';
-                div.id = `track-${track.collection}-${track.index}`;
-                // Keep persistent highlight state context tracking active selections
-                if (currentActiveItem && currentActiveItem.url === track.url) {
-                    div.className += ' active';
-                }
-
+                if (currentActiveItem && currentActiveItem.url === track.url) div.classList.add('active');
                 div.innerHTML = `
                     <div class="track-index">${idx + 1}</div>
-                    <div class="track-info">
+                    <div class="track-info" onclick="playDirectly(this)">
                         <div class="track-title">${track.title}</div>
                         <div style="font-size:0.75rem; color:var(--text-muted); margin-top:2px;">${track.collection}</div>
                     </div>
+                    <button class="action-btn" title="Add to Playlist" onclick="addToPlaylist(event, '${track.url.replace(/'/g, "\\'")}')">+</button>
                 `;
-                
-                div.onclick = () => playSong(track, div);
+                div.querySelector('.track-info').trackData = track;
                 container.appendChild(div);
             });
         }
 
-        /**
-         * Media Interface Activation Utility
-         * Bridges selected item properties over to the bottom audio component layer instantly.
-         */
-        function playSong(track, element) {
-            // Remove highlighting statuses across alternate structural entries
+        function playDirectly(infoElement) {
             document.querySelectorAll('.track-item').forEach(el => el.classList.remove('active'));
-            
-            // Apply highlighting attributes directly to current element node
-            element.classList.add('active');
-            currentActiveItem = track;
-
-            // Route audio attributes down to persistent interactive audio element drawer
-            const audioPlayer = document.getElementById('main-audio-player');
-            document.getElementById('dock-title').textContent = track.title;
-            document.getElementById('dock-collection').textContent = track.collection;
-
-            audioPlayer.src = track.url;
-            audioPlayer.load();
-            audioPlayer.play();
+            infoElement.parentElement.classList.add('active');
+            triggerAudioDock(infoElement.trackData);
         }
 
-        /**
-         * Global Client Side Search Engine (Filter Logic Matrix)
-         */
+        function triggerAudioDock(track) {
+            currentActiveItem = track;
+            const player = document.getElementById('main-audio-player');
+            document.getElementById('dock-title').textContent = track.title;
+            document.getElementById('dock-collection').textContent = track.collection;
+            player.src = track.url;
+            player.load();
+            player.play();
+        }
+
+        function addToPlaylist(event, trackUrl) {
+            if (event) event.stopPropagation();
+            const matchedTrack = flatTrackList.find(t => t.url === trackUrl);
+            if (matchedTrack && !playlist.some(p => p.url === trackUrl)) {
+                playlist.push(matchedTrack);
+                savePlaylistState();
+                renderPlaylist();
+            }
+        }
+
+        function removeFromPlaylist(trackUrl) {
+            playlist = playlist.filter(t => t.url !== trackUrl);
+            savePlaylistState();
+            renderPlaylist();
+        }
+
+        function renderPlaylist() {
+            const container = document.getElementById('playlist-container');
+            container.innerHTML = '';
+            if (playlist.length === 0) {
+                container.innerHTML = '<p style="padding:20px; color:var(--text-muted); text-align:center; font-size:0.9rem;">Your playlist queue is empty.</p>';
+                return;
+            }
+            playlist.forEach((track, idx) => {
+                const div = document.createElement('div');
+                div.className = 'track-item';
+                div.innerHTML = `
+                    <div class="track-index">${idx + 1}</div>
+                    <div class="track-info" onclick="triggerAudioDock(this.trackData)">
+                        <div class="track-title" style="font-size:0.9rem;">${track.title}</div>
+                    </div>
+                    <button class="action-btn remove-btn" title="Remove" onclick="removeFromPlaylist('${track.url.replace(/'/g, "\\'")}')">×</button>
+                `;
+                div.querySelector('.track-info').trackData = track;
+                container.appendChild(div);
+            });
+        }
+
+        function exportPlaylist() {
+            if (playlist.length === 0) { alert("Add some songs to your playlist first!"); return; }
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(playlist, null, 2));
+            const anchor = document.createElement('a');
+            anchor.setAttribute("href", dataStr);
+            anchor.setAttribute("download", "sacred_music_playlist.json");
+            document.body.appendChild(anchor);
+            anchor.click();
+            anchor.remove();
+        }
+
+        function importPlaylist(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const parsedData = JSON.parse(e.target.result);
+                    if (Array.isArray(parsedData)) {
+                        playlist = parsedData;
+                        savePlaylistState();
+                        renderPlaylist();
+                        alert(`Imported ${playlist.length} tracks!`);
+                    }
+                } catch { alert("Error reading file."); }
+            };
+            reader.readAsText(file);
+            event.target.value = '';
+        }
+
         function filterTracks() {
             const query = document.getElementById('search-input').value.toLowerCase();
-            const trackItems = document.querySelectorAll('.track-item');
-
-            trackItems.forEach(item => {
-                const titleText = item.querySelector('.track-title').textContent.toLowerCase();
-                if (titleText.includes(query)) {
-                    item.style.display = 'flex';
-                } else {
-                    item.style.display = 'none';
-                }
+            document.querySelectorAll('#tracks-container .track-item').forEach(item => {
+                const title = item.querySelector('.track-title').textContent.toLowerCase();
+                item.style.display = title.includes(query) ? 'flex' : 'none';
             });
         }
     </script>
