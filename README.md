@@ -6,6 +6,11 @@ Features a hybrid client-side architecture that supports both persistent offline
 
 ---
 
+## 🤖 AI Disclosure
+*This project, including its UI styling, parsing architecture, and foundational components, was designed and developed with the assistance of artificial intelligence.*
+
+---
+
 ## ✨ Key Features
 
 - **Dynamic Markdown Parsing Engine:** Eliminates the need for a heavy relational database backend by reading and lexing clean JSON tracking objects directly from a localized structured file (`Sacred_Music_Complete_Archive.md`).
@@ -26,9 +31,9 @@ Features a hybrid client-side architecture that supports both persistent offline
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started (How-To Guide)
 
-Follow these steps to set up, configure, and run the Sacred Music Archive Player on your local computer or development environment.
+If you are a first-time user, follow these clear instructions to set up, configure, and run the Sacred Music Archive Player on your local computer or development environment.
 
 ### 1. Repository Structure
 Ensure your local project directory includes the following layout files:
