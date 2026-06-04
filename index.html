@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacred Music Archive Player</title>
+    <style>
+        /* Modern CSS Reset & Theme Properties mirroring Gospel Library */
+        :root {
+            --primary-color: #2b547e; /* Royal Church Blue */
+            --accent-color: #4a7ebb;
+            --background-light: #f5f7fa;
+            --surface-white: #ffffff;
+            --text-dark: #2c3e50;
+            --text-muted: #7f8c8d;
+            --border-color: #e2e8f0;
+            --dock-height: 80px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--background-light);
+            color: var(--text-dark);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            padding-bottom: calc(var(--dock-height) + 20px);
+        }
+
+        /* Top Header Navigation bar */
+        header {
+            background-color: var(--surface-white);
+            border-bottom: 1px solid var(--border-color);
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        header h1 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            font-weight: 700;
+        }
+
+        /* Modern Search Input Bar */
+        .search-box {
+            position: relative;
+            width: 100%;
+            max-width: 350px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 10px 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            font-size: 0.95rem;
+            outline: none;
+            background-color: var(--background-light);
+            transition: all 0.2s ease;
+        }
+
+        .search-box input:focus {
+            border-color: var(--accent-color);
+            background-color: var(--surface-white);
+            box-shadow: 0 0 0 3px rgba(74, 126, 187, 0.15);
+        }
+
+        /* Layout Main Containers */
+        main {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        /* Dynamic Collection Book Tabs */
+        .collections-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .book-card {
+            background-color: var(--surface-white);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.01);
+        }
+
+        .book-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+            border-color: var(--accent-color);
+        }
+
+        .book-card h3 {
+            color: var(--primary-color);
+            font-size: 1.15rem;
+            margin-bottom: 8px;
+        }
+
+        .book-card .track-count {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            background: var(--background-light);
+            padding: 4px 8px;
+            border-radius: 12px;
+            align-self: flex-start;
+        }
+
+        /* Track List Output Representation */
+        .track-list-section {
+            background-color: var(--surface-white);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 10px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.01);
+        }
+
+        .section-title {
+            padding: 15px 20px;
+            font-size: 1.2rem;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--primary-color);
+        }
+
+        .track-item {
+            display: flex;
+            align-items: center;
+            padding: 14px 20px;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: background 0.15s ease;
+        }
+
+        .track-item:last-child {
+            border-bottom: none;
+        }
+
+        .track-item:hover {
+            background-color: rgba(74, 126, 187, 0.05);
+        }
+
+        .track-item.active {
+            background-color: rgba(43, 84, 126, 0.08);
+            border-left: 4px solid var(--primary-color);
+            padding-left: 16px;
+        }
+
+        .track-index {
+            width: 35px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .track-info {
+            flex-grow: 1;
+        }
+
+        .track-title {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text-dark);
+        }
+
+        .track-item.active .track-title {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        /* Persistent Bottom Player Drawer Box */
+        .audio-player-dock {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: var(--dock-height);
+            background-color: var(--surface-white);
+            border-top: 1px solid var(--border-color);
+            box-shadow: 0 -4px 15px rgba(0,0,0,0.06);
+            padding: 10px 20px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .player-container {
+            max-width: 1200px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .current-meta {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            min-width: 150px;
+        }
+
+        #dock-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        #dock-collection {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        audio {
+            width: 70%;
+            height: 40px;
+            outline: none;
+        }
+
+        /* Mobile Layout View Breakpoint Enhancements */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .search-box {
+                max-width: 100%;
+            }
+            .player-container {
+                flex-direction: column;
+                gap: 5px;
+            }
+            .current-meta {
+                width: 100%;
+                text-align: center;
+            }
+            audio {
+                width: 100%;
+                height: 32px;
+            }
+            :root {
+                --dock-height: 105px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>🎵 Sacred Music Archive</h1>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search hymns or songs..." oninput="filterTracks()">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="collections-grid" id="collections-container"></div>
+
+        <div class="track-list-section">
+            <h2 class="section-title" id="current-section-heading">All Collections</h2>
+            <div id="tracks-container"></div>
+        </div>
+    </main>
+
+    <div class="audio-player-dock">
+        <div class="player-container">
+            <div class="current-meta">
+                <span id="dock-title">No Song Selected</span>
+                <span id="dock-collection">Select a track to play</span>
+            </div>
+            <audio id="main-audio-player" controls autoplay src=""></audio>
+        </div>
+    </div>
+
+    <script>
+        // Universal application states
+        let musicLibrary = {};
+        let flatTrackList = [];
+        let currentActiveItem = null;
+
+        document.addEventListener("DOMContentLoaded", () => {
+            loadAndParseMarkdown();
+        });
+
+        /**
+         * Reads the .md archive using standard AJAX fetch requests, 
+         * compiling the structured Markdown text elements into clean JSON.
+         */
+        function loadAndParseMarkdown() {
+            fetch('Sacred_Music_Complete_Archive.md')
+                .then(response => {
+                    if (!response.ok) throw new Error("Could not find archive file.");
+                    return response.text();
+                })
+                .then(text => {
+                    parseMarkdownData(text);
+                    renderCollectionsGrid();
+                    showCollection(null); // Initially display all tracking entries
+                })
+                .catch(err => {
+                    console.error(err);
+                    document.getElementById('tracks-container').innerHTML = 
+                        `<p style="padding: 20px; color: red;">Error: Could not locate 'Sacred_Music_Complete_Archive.md'. Please ensure the markdown file sits in the same server root path.</p>`;
+                });
+        }
+
+        /**
+         * Markdown Lexing Parser Engine
+         * Loops through rows to isolate collections (##) and table arrays (|)
+         */
+        function parseMarkdownData(mdText) {
+            const lines = mdText.split('\n');
+            let currentCollection = "";
+
+            lines.forEach(line => {
+                line = line.trim();
+                
+                // Identify Books / Collections
+                if (line.startsWith('## 📚 Collection:')) {
+                    currentCollection = line.replace('## 📚 Collection:', '').trim();
+                    musicLibrary[currentCollection] = [];
+                } 
+                // Identify Table Row Elements mapping individual tracks
+                else if (line.startsWith('|') && currentCollection) {
+                    const columns = line.split('|').map(c => c.trim());
+                    // Filter out header definitions and structural dividers
+                    if (columns.length >= 4 && !columns[1].includes('#') && !columns[1].includes('---')) {
+                        const index = columns[1];
+                        // Parse clean string contents out of bold markdown blocks (**Title**)
+                        const title = columns[2].replace(/\*\*/g, '').trim();
+                        // Parse absolute link target out of the parentheses mask [Text](Link)
+                        const linkMatch = columns[3].match(/\((https?:\/\/[^\)]+)\)/);
+                        
+                        if (title && linkMatch) {
+                            const trackObj = {
+                                index: index,
+                                title: title,
+                                url: linkMatch[1],
+                                collection: currentCollection
+                            };
+                            musicLibrary[currentCollection].push(trackObj);
+                            flatTrackList.push(trackObj);
+                        }
+                    }
+                }
+            });
+        }
+
+        /**
+         * Renders the dynamic dashboard selector cards matching Gospel Library layout behaviors.
+         */
+        function renderCollectionsGrid() {
+            const container = document.getElementById('collections-container');
+            container.innerHTML = '';
+
+            // Optional card template triggering all items collectively
+            const totalCount = flatTrackList.length;
+            container.innerHTML += `
+                <div class="book-card" onclick="showCollection(null)">
+                    <h3>All Collections Archive</h3>
+                    <span class="track-count">${totalCount} Songs Total</span>
+                </div>
+            `;
+
+            for (const [bookTitle, tracks] of Object.entries(musicLibrary)) {
+                if (tracks.length === 0) continue;
+                container.innerHTML += `
+                    <div class="book-card" onclick="showCollection('${bookTitle.replace(/'/g, "\\'")}')">
+                        <h3>${bookTitle}</h3>
+                        <span class="track-count">${tracks.length} Songs</span>
+                    </div>
+                `;
+            }
+        }
+
+        /**
+         * Populates the track viewport window matching selected category parameters.
+         */
+        function showCollection(bookTitle) {
+            const container = document.getElementById('tracks-container');
+            const heading = document.getElementById('current-section-heading');
+            container.innerHTML = '';
+
+            let targetTracks = bookTitle ? musicLibrary[bookTitle] : flatTrackList;
+            heading.textContent = bookTitle ? `📚 Directory: ${bookTitle}` : "📚 Directory: All Public Tracks Indexed";
+
+            if (!targetTracks || targetTracks.length === 0) {
+                container.innerHTML = '<p style="padding:20px; color:var(--text-muted);">No playable assets inside this directory branch.</p>';
+                return;
+            }
+
+            targetTracks.forEach((track, idx) => {
+                const div = document.createElement('div');
+                div.className = 'track-item';
+                div.id = `track-${track.collection}-${track.index}`;
+                // Keep persistent highlight state context tracking active selections
+                if (currentActiveItem && currentActiveItem.url === track.url) {
+                    div.className += ' active';
+                }
+
+                div.innerHTML = `
+                    <div class="track-index">${idx + 1}</div>
+                    <div class="track-info">
+                        <div class="track-title">${track.title}</div>
+                        <div style="font-size:0.75rem; color:var(--text-muted); margin-top:2px;">${track.collection}</div>
+                    </div>
+                `;
+                
+                div.onclick = () => playSong(track, div);
+                container.appendChild(div);
+            });
+        }
+
+        /**
+         * Media Interface Activation Utility
+         * Bridges selected item properties over to the bottom audio component layer instantly.
+         */
+        function playSong(track, element) {
+            // Remove highlighting statuses across alternate structural entries
+            document.querySelectorAll('.track-item').forEach(el => el.classList.remove('active'));
+            
+            // Apply highlighting attributes directly to current element node
+            element.classList.add('active');
+            currentActiveItem = track;
+
+            // Route audio attributes down to persistent interactive audio element drawer
+            const audioPlayer = document.getElementById('main-audio-player');
+            document.getElementById('dock-title').textContent = track.title;
+            document.getElementById('dock-collection').textContent = track.collection;
+
+            audioPlayer.src = track.url;
+            audioPlayer.load();
+            audioPlayer.play();
+        }
+
+        /**
+         * Global Client Side Search Engine (Filter Logic Matrix)
+         */
+        function filterTracks() {
+            const query = document.getElementById('search-input').value.toLowerCase();
+            const trackItems = document.querySelectorAll('.track-item');
+
+            trackItems.forEach(item => {
+                const titleText = item.querySelector('.track-title').textContent.toLowerCase();
+                if (titleText.includes(query)) {
+                    item.style.display = 'flex';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
