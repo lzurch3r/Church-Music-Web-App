@@ -2,6 +2,85 @@
 ### Restoring public .mp3 streaming asset entries missing from mobile application migrations.
 ----
 
+## 📚 Collection: Hymns (Hymns for Home and Church)
+Total Audio Files Indexed: `72` 
+
+| # | Song Name | Direct CDN Audio Stream Link |
+|---|-----------|------------------------------|
+| 1 | **Come Thou Fount Of Every Blessing** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a7/76/a7767621ee3511ee94b9eeeeac1e27355d0aab0b/come_thou_fount_of_every_blessing.mp3) |
+| 2 | **When The Savior Comes Again** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a9/d5/a9d54db1ee3511eea82beeeeac1ef0afa960d772/when_the_savior_comes_again.mp3) |
+| 3 | **It Is Well With My Soul** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a4/8a/a48a0458db4c11eea447eeeeac1eec2206c1e37f/it_is_well_with_my_soul.mp3) |
+| 4 | **I Will Walk With Jesus** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a8/a9/a8a929c1ee3511ee85daeeeeac1e7c9bbe94debb/i_will_walk_with_jesus.mp3) |
+| 5 | **His Eye Is On The Sparrow** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9f/d7/9fd7c6f3db4c11ee9197eeeeac1ebb5eb803d72d/his_eye_is_on_the_sparrow.mp3) |
+| 6 | **Think A Sacred Song** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a9/6a/a96a7df1ee3511eeb127eeeeac1e482e43e43b17/think_a_sacred_song.mp3) |
+| 7 | **As Bread Is Broken** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/39/ae/39ae934bdb4611ee9197eeeeac1ebb5ecabe587c/as_bread_is_broken.mp3) |
+| 8 | **Bread Of Life Living Water** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a6/fa/a6fa4142ee3511eeab89eeeeac1ef623ccb828a4/bread_of_life_living_water.mp3) |
+| 9 | **Gethsemane** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a7/80/a7803a21ee3511ee92b3eeeeac1e6d9af543cb1c/gethsemane.mp3) |
+| 10 | **Amazing Grace** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cg/dk/cgdke1v9krhpwr48ibycxwe0cc3tezgkkanfvhvc/amazing_grace.mp3) |
+| 11 | **Holding Hands Around The World** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a8/80/a8804501ee3511eeadd2eeeeac1e3e21531e1d7b/holding_hands_around_the_world.mp3) |
+| 12 | **Anytime Anywhere** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/fs/9b/fs9b7mvoxj2clv6k4dniom3fhnfeaa61a1z5cnwq/anytime_anywhere.mp3) |
+| 13 | **Gods Gracious Love** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/wm/le/wmleefckld3x7uzy1tg8ojor2de6yk783004h7g3/gods_gracious_love.mp3) |
+| 14 | **My Shepherd Will Supply My Need** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ny/1b/ny1bovmaaggc642tgjmnst078yi1qltjwr0yf932/my_shepherd_will_supply_my_need.mp3) |
+| 15 | **Oh The Deep Deep Love Of Jesus** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/lw/l2/lwl2l86ixgxpnf2q0f6tsmnhymvveymkcj5asrik/oh_the_deep_deep_love_of_jesus.mp3) |
+| 16 | **Behold The Wounds In Jesus Hands** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/bs/jv/bsjv2r1xxlwq9jtznsefz385346kjc76jm87cb8o/behold_the_wounds_in_jesus_hands.mp3) |
+| 17 | **This Is The Christ** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/j6/xn/j6xn2e2p4c0brb9qk9ajt2seytkfzhhydatrmebc/this_is_the_christ.mp3) |
+| 18 | **Come Lord Jesus** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1n/4e/1n4e9hiv70btu52nu5xvwnzlsj34b9kbwvi8y5re/come_lord_jesus.mp3) |
+| 19 | **To Love Like Thee** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d8/4m/d84mluzy2w2cwc0qoghfelzxedon6r4guf8umf5n/to_love_like_thee.mp3) |
+| 20 | **Softly And Tenderly Jesus Is Calling** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0x/zs/0xzsfb3fpfcgfbmhcdoesh2am20sb72d8wovzeky/softly_and_tenderly_jesus_is_calling.mp3) |
+| 21 | **I Know That My Savior Loves Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/wc/be/wcbewc0zgxwmqbimzsrwquw079e269lh7u3pio0i/i_know_that_my_savior_loves_me.mp3) |
+| 22 | **Faith In Every Footstep** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/go/ni/goni505bqg01lge525xfqsevt8z4dvoywvw5jic1/faith_in_every_footstep.mp3) |
+| 23 | **Standing On The Promises** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/5q/gw/5qgwmwkx8r3xyp3fk32asqxqpa1p6bxawypzthdm/standing_on_the_promises.mp3) |
+| 24 | **I Have Faith In The Lord Jesus Christ** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c1/0p/c10peckq12gdz7jbrbv2kxepa9rawanualwdml19/i_have_faith_in_the_lord_jesus_christ.mp3) |
+| 25 | **Take My Heart And Let It Be Consecrated** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2p/wp/2pwpts1j7719tobhsitk1zd3cecf2jkr58pwpymg/take_my_heart_and_let_it_be_consecrated.mp3) |
+| 26 | **Holy Places** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/dg/6y/dg6ynr11zhes671ducbp8dyfwmmocils3mjz1mro/holy_places.mp3) |
+| 27 | **Welcome Home** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/x4/dg/x4dg9tdyls1apo67vr6pdcahhn7wn089ytdnbpa6/welcome_home.mp3) |
+| 28 | **This Little Light Of Mine** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/de/k6/dek6rtj6tnxsgrmsz7u8vyynrevnt82kwx964gqf/this_little_light_of_mine.mp3) |
+| 29 | **I Cant Count Them All** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9v/qz/9vqzgk0q5bx5wxoa1uat5sgd4kpyiv7a69qy3jy3/i_cant_count_them_all.mp3) |
+| 30 | **Close As A Quiet Prayer** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/xr/0t/xr0t4sr3u8ynl0pmke4vu4xnxiwsoadjun6vdrkp/close_as_a_quiet_prayer.mp3) |
+| 31 | **Come Hear The Word The Lord Has Spoken** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/jf/lq/jflqihwszd5nei0woqvj1gclzzfibqq8rpneiezx/come_hear_the_word_the_lord_has_spoken.mp3) |
+| 32 | **Look Unto Christ** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/sw/qv/swqvhp7en6xrqtkwcnlvmu1bdpp4s6gt860k6hcc/look_unto_christ.mp3) |
+| 33 | **Oh How Great Is Our Joy** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9p/b8/9pb8i0rhkpiy7gnprpj4pvewowm51q6sr9y1ndr6/oh_how_great_is_our_joy.mp3) |
+| 34 | **Im A Pioneer Too** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/xc/lo/xclo4v5mxfsc6xgl94bil6m8emqqufrfc4uv10t9/im_a_pioneer_too.mp3) |
+| 35 | **As I Keep The Sabbath Day** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/te/2g/te2ga7lksgz4vilngy9bzyrhvs7ll60oefgdipap/as_i_keep_the_sabbath_day.mp3) |
+| 36 | **Read The Book Of Mormon And Pray** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1d/e5/1de5q0j4uotizunij7yuagyx28fgv090bb3titoi/read_the_book_of_mormon_and_pray.mp3) |
+| 37 | **Im Gonna Live So God Can Use Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1o/fv/1ofvckm3qdstwsi2sf8yi138ycusjd5p9x3h1ak5/im_gonna_live_so_god_can_use_me.mp3) |
+| 38 | **The Lords My Shepherd** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/m7/ml/m7mlms4cmfoxk14brdq12wdp76ge8k1dx942cyh1/the_lords_my_shepherd.mp3) |
+| 39 | **Because** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ks/c2/ksc2r3ze0r7uveqn7xizfpnkx2ixba7zn3vp0zcd/because.mp3) |
+| 40 | **His Voice As The Sound** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/vl/7p/vl7pw9iosq837ek8i0n18ybolizkyoip8aupbphz/his_voice_as_the_sound.mp3) |
+| 41 | **O Lord Who Gave Thy Life For Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/lh/80/lh802zr0pm2snxsjv99i2rykszg9r4kutyun169r/o_lord_who_gave_thy_life_for_me.mp3) |
+| 42 | **Thou Gracious God Whose Mercy Lends** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/jj/vx/jjvxz5xxqjw3564lsllbo2i2epuh5pri02pow03h/thou_gracious_god_whose_mercy_lends.mp3) |
+| 43 | **Help Us Remember** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ui/5z/ui5zx3hnn7ulqb5jq4awibcxcehzvuhhvbr3byta/help_us_remember.mp3) |
+| 44 | **How Did The Savior Minister** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/08/64/0864poc1g6jfml5kakstf9wpu50ki6qqgdwue3az/how_did_the_savior_minister.mp3) |
+| 45 | **Jesus Is The Way** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/4l/r9/4lr9b9q3qpb3hbkdqy5zk38l6w9bfqc62r2dpkrg/jesus_is_the_way.mp3) |
+| 46 | **Can You Count The Stars In Heaven** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/t4/9f/t49fqj3febqrkmvzi3vzwyprfnl54lid80gnww0q/can_you_count_the_stars_in_heaven.mp3) |
+| 47 | **He Cares For Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/n3/3i/n33iq1evz8cvmgpcqhdr5ypc1ie6e6f9697itxuo/he_cares_for_me.mp3) |
+| 48 | **Our Prayer To Thee** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/du/ab/duabtudgh5xlezji1vnn5s8zfy8on5wzlgajchhi/our_prayer_to_thee.mp3) |
+| 49 | **Joseph Prayed In Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/vs/it/vsitjfuugwwuytfwrarnzqrsqes8xzvww29ev5lm/joseph_prayed_in_faith.mp3) |
+| 50 | **Stand By Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/5m/lq/5mlq0xqfi9mujsr3qw89hwqqubqpgmi7jd6z11w5/stand_by_me.mp3) |
+| 51 | **This Day Is A Good Day Lord** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/tq/ph/tqphz9xf09rsxr3bk3i0an6dz8ntsg9meeejuhmd/this_day_is_a_good_day_lord.mp3) |
+| 52 | **Joyfully Bound** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/xl/9i/xl9iqcmd25a5in0ohrcyca26fyq19sgu9ihg101v/joyfully_bound.mp3) |
+| 53 | **My Covenants** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/o9/bo/o9bok73v8h8iaknrrkfty0mdrzu8n61bn9z9inls/my_covenants.mp3) |
+| 54 | **When I Am Baptized** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/p1/od/p1odbd6nv91wgf0tvznm6az24lybovf1nhn0w012/when_i_am_baptized.mp3) |
+| 55 | **The Power Of The Holy Ghost** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2r/t3/2rt3392xsbtmzm7u4okdmdsdnoccegqwsgkyl0ou/the_power_of_the_holy_ghost.mp3) |
+| 56 | **Elijah And The Still Small Voice** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/52/c3/52c3amiyvyotv474dj6bkuswd6k91gw4zk20yt66/elijah_and_the_still_small_voice.mp3) |
+| 57 | **Jesus Is My Shepherd** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2z/sn/2zsn6ygoqsfsrcrshe2642rrmeq4hv5m00oe9fhh/jesus_is_my_shepherd.mp3) |
+| 58 | **My Song In The Night** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/4x/ld/4xld3777ofhwtqquwtqkifbgoc6yjuy7jdzdgu1i/my_song_in_the_night.mp3) |
+| 59 | **This Is My Fathers World** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3k/8q/3k8qbe8wi8moxk9ytk1i6x0b0eqagsia786vpxgo/this_is_my_fathers_world.mp3) |
+| 60 | **Build An Ark** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/z0/sv/z0svi4j3bfzwjfncq70wdidqkxlqp2qdhtz7cbk5/build_an_ark.mp3) |
+| 61 | **Love Will Bless Our Home** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/v9/qq/v9qqc8t19xr19cc3esurr2008zz6e3wnmyahsswv/love_will_bless_our_home.mp3) |
+| 62 | **Lord Accept Our Humble Fast** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1z/09/1z09fgvqapitt6p3f6e9m74x31mlbpdpal03l5yi/lord_accept_our_humble_fast.mp3) |
+| 63 | **Hail The Day That Sees Him Rise** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9c/82/9c82a881db4c11ee880beeeeac1ee38492ccfbbc/hail_the_day_that_sees_him_rise.mp3) |
+| 64 | **He Is Born The Divine Christ Child** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a8/12/a8128f12ee3511ee94b9eeeeac1e273536abae66/he_is_born_the_divine_christ_child.mp3) |
+| 65 | **What Child Is This** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a5/34/a534c34edb4c11eeb3ebeeeeac1ea5c24a91ecfb/what_child_is_this.mp3) |
+| 66 | **Star Bright** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a9/62/a9621981ee3511eebe33eeeeac1e37392107d6e5/star_bright.mp3) |
+| 67 | **Let Easter Anthems Ring** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/6j/a5/6ja5y8usywgl8khn7xk4pvticwksxv29iqg894an/let_easter_anthems_ring.mp3) |
+| 68 | **Were You There** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/6r/f2/6rf2e4w3chsa7rulwmk5fm0yc05wdv6rqr829bcy/were_you_there.mp3) |
+| 69 | **Still Still Still** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ob/06/ob064ek4gh9cv7sguh0bnb2mwgu4f1dlga2qaoqy/still_still_still.mp3) |
+| 70 | **Go Tell It On The Mountain** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ge/5t/ge5tz9qino95h64syvfbxalhf7hao0lcs5n74tyb/go_tell_it_on_the_mountain.mp3) |
+| 71 | **Little Baby In A Manger** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/83/8a/838aiz6s6yzl0mgcqrr6ubtbxzkfifvhwdo6fl95/little_baby_in_a_manger.mp3) |
+| 72 | **Long Ago Within A Garden** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/qv/d0/qvd0mmomc1z66mm3hcmkldj7wnmj3cci7x7qljmz/long_ago_within_a_garden.mp3) |
+
+
 ## 📚 Collection: Hymns of The Church of Jesus Christ of Latter-day Saints
 Total Audio Files Indexed: `318` 
 
@@ -325,5 +404,535 @@ Total Audio Files Indexed: `318`
 | 316 | **My Country Tis Of Thee** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/80/51/80510276310459a3fd4ec2757f558382321d891c/my_country_tis_of_thee_vocal_accompaniment_eng.mp3) |
 | 317 | **The Star Spangled Banner** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/46/de/46dec3353db9c2465c2a9e7c7f831e2645979e28/the_star_spangled_banner_accompaniment_eng.mp3) |
 | 318 | **God Save The King** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/5f/f3/5ff316736cc6a50848b870cb711ad5ea22ea3104/god_save_the_king_accompaniment_eng.mp3) |
+
+
+## 📚 Collection: Children's Songbook
+Total Audio Files Indexed: `261` 
+
+| # | Song Name | Direct CDN Audio Stream Link |
+|---|-----------|------------------------------|
+| 1 | **I Am A Child Of God Wolford** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/91/27/912795cd54d3183f613a0749b8d2d072ac20c207/soy_un_hijo_de_diosmusica_solo.mp3) |
+| 2 | **I Lived In Heaven** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/40/b6/40b61dbc40301ceb674a1784b6698baf98146f17/vivi_en_los_cielosmusica_solo.mp3) |
+| 3 | **I Know My Father Lives Nibley** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3f/61/3f61559793a3cd0f153b5e04369cae61871eb2d5/dios_vivemusica_solo.mp3) |
+| 4 | **Thanks To Thee** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/60/95/60956439fddcf115a47cbae914ac95ac6227ec77/thanks_to_theemusic_only.mp3) |
+| 5 | **I Thank Thee Dear Father** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ef/1a/ef1ae1a3efb12b0e6fe0fda6c868f0157b7e5e51/doy_gracias_oh_padremusica_solo.mp3) |
+| 6 | **Father We Thank Thee For The Night** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9d/e1/9de17fee304749a6a50289944c329117c5e06d0a/father_we_thank_thee_for_the_nightmusic_only.mp3) |
+| 7 | **Can A Little Child Like Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/f1/8c/f18c1f79df8c6da7c4992e6cfa882cbe5e8c3a79/puede_un_nino_como_yo_musica_solo.mp3) |
+| 8 | **Thank Thee For Everything** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/4a/bf/4abf05787d5026a904bf996ef1561952aa4432f2/thank_thee_for_everythingmusic_only.mp3) |
+| 9 | **Im Thankful To Be Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/17/b8/17b84acbb261c771317e8c8c77f9516eeb43e001/i_m_thankful_to_be_memusic_only.mp3) |
+| 10 | **A Childs Prayer** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/35/16/351657965a4c092019ba24b7b40bf1780861d07a/oracion_de_un_ninomusica_solo.mp3) |
+| 11 | **I Pray In Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b1/3f/b13f4ba7733f7770d55814d05a6c8b6a8282bded/i_pray_in_faithmusic_only.mp3) |
+| 12 | **If With All Your Hearts** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e3/94/e3944ba4ba14fe791ca8a9deca30b5d8e7e738f8/if_with_all_your_heartsmusic_only.mp3) |
+| 13 | **Children All Over The World** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/af/db/afdb6ec36658af896a032a81ba58074bea80fad2/ninos_de_todo_el_mundomusica_solo.mp3) |
+| 14 | **I Need My Heavenly Father** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/27/f9/27f9b3fd46ac112305e970a41636de2c53d9d547/i_need_my_heavenly_fathermusic_only.mp3) |
+| 15 | **Heavenly Father Now I Pray** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b0/30/b030f7b2bc3e026891c72ba20074bdc20b153bea/heavenly_father_now_i_praymusic_only.mp3) |
+| 16 | **A Song Of Thanks** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c6/39/c639ec104431308e62533981182c0e73575518cf/a_song_of_thanksmusic_only_restricted_pending_ip_approval.mp3) |
+| 17 | **Thanks To Our Father** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1f/cb/1fcb98f018072ba3c490bc4bc5c0ecac6820662a/demos_gracias_al_padremusica_solo.mp3) |
+| 18 | **For Health And Strength** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/30/65/30656fcf297d1858d818e7eaea96edc7975a522a/rondo_de_gracias_rondo_musica_solo.mp3) |
+| 19 | **For Thy Bounteous Blessings** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/8f/7e/8f7e809d75f94aaf35dda1397702381047e31f3e/for_thy_bounteous_blessingsmusic_only.mp3) |
+| 20 | **A Prayer Song** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/bb/62/bb62521d4f8a236603f964b5db2a7db7b12996db/a_prayer_songmusic_only.mp3) |
+| 21 | **A Prayer** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e5/9a/e59ace804c9359bf3ec788d9032461d3ef5d73a2/a_prayermusic_only.mp3) |
+| 22 | **Father Up Above** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/61/90/6190da3b10cdcdf499368e95bd4a73148c98c6e1/father_up_abovemusic_only.mp3) |
+| 23 | **Heavenly Father While I Pray** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/16/50/1650d5f8414482976fb715af89f109131ce11521/heavenly_father_while_i_praymusic_only.mp3) |
+| 24 | **Thank Thee Father** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d9/fb/d9fbfccea844c40e4648636fe06a4ddfbe7a2622/thank_thee_fathermusic_only.mp3) |
+| 25 | **We Bow Our Heads** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/66/58/6658182751fed1784a973b136b35307a368bdcde/al_orarmusica_solo.mp3) |
+| 26 | **I Love To Pray** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/37/4f/374f0775d8e1b27b0cb51dbaac3d086011888f1a/i_love_to_praymusic_only.mp3) |
+| 27 | **Reverently Quietly** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/8c/57/8c57b2923da9e75ddd87deed249f2402b08cb089/con_quietudmusica_solo.mp3) |
+| 28 | **Reverence** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3c/ab/3cab2bde245990e7a596257c3a86ff46ab397d48/reverencemusic_only.mp3) |
+| 29 | **We Are Reverent** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/54/3b/543ba3bbee96a4e1085187e5ce039672fc24c452/we_are_reverent_music_only.mp3) |
+| 30 | **I Want To Be Reverent** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/21/ba/21ba9de6eb3d7e3e6107fb05ab15e6b7ff0249a7/i_want_to_be_reverentmusic_only.mp3) |
+| 31 | **I Will Try To Be Reverent** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/13/15/1315fdc625cd57b1373c88112585955e33c08f5f/reverencia_mostraremusica_solo.mp3) |
+| 32 | **Father I Will Reverent Be** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c7/70/c7705b273fdbe35e6b77fad8ee624337ea9444c7/con_reverenciamusica_solo.mp3) |
+| 33 | **This Is Gods House** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a8/83/a8830b760a3ef4ecdf16b2a1d6d51cbc1cde8b54/this_is_god_s_housemusic_only.mp3) |
+| 34 | **Our Chapel Is A Sacred Place** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/46/4d/464da3eef54339fea3cbe6a55363e779f76253f4/our_chapel_is_a_sacred_placemusic_only.mp3) |
+| 35 | **Reverence Is Love** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/81/52/8152b0af71e2108ac13960f1e5944a2fa27822a7/la_reverencia_es_amormusica_solo.mp3) |
+| 36 | **He Sent His Son** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/83/93/8393e8ff93bf36bedd8fe8433beb6ad17416a910/mando_a_su_hijomusica_solo.mp3) |
+| 37 | **Samuel Tells Of The Baby Jesus** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a0/fd/a0fdee081a6a0908192124471eb04ffe875e2e36/samuel_tells_of_the_baby_jesusmusic_only.mp3) |
+| 38 | **Stars Were Gleaming** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/50/3f/503fe4b2dc5b13faa5203b327a31c4913b01f636/la_nochebuenamusica_solo.mp3) |
+| 39 | **When Joseph Went To Bethlehem** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ba/81/ba819d14211ff6300e9592537622faa20265157f/al_irse_a_belen_josemusica_solo.mp3) |
+| 40 | **Little Jesus** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0e/a9/0ea9ffcdd8ce426ae0e5025ae62fac4664676c9a/little_jesusmusic_only.mp3) |
+| 41 | **There Was Starlight On The Hillside** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/f3/58/f3582cda33c68b2c243f076ddbe33ec52e501a71/there_was_starlight_on_the_hillsidemusic_only.mp3) |
+| 42 | **The Shepherds Carol** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2f/c2/2fc259222bfdd9b474bf9f51849071b8a34d08ca/the_shepherd_s_carol_round_music_only.mp3) |
+| 43 | **Once Within A Lowly Stable** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/07/53/07531cc666abbc851a4de6587120e5d88fe8da2b/dentro_de_un_establo_humildemusica_solo.mp3) |
+| 44 | **Away In A Manger Gabriel** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/19/47/1947666ad0858139dc351a3780e736fc825fa9b3/jesus_en_pesebremusica_solo.mp3) |
+| 45 | **Marys Lullaby** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d5/22/d522ed989fbc7e567180f0839dd75f7319de24a1/el_arrullo_de_mariamusica_solo.mp3) |
+| 46 | **Who Is The Child** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/40/eb/40eb271c8fc5d1ab8f3dce0a26c49fd8382d7662/who_is_the_child_music_only.mp3) |
+| 47 | **Sleep Little Jesus** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/dc/90/dc90d3d9fc783e94a589274ee7fb6d330ec62e38/sleep_little_jesusmusic_only.mp3) |
+| 48 | **Oh Hush Thee My Baby** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/7e/6a/7e6a68497bd0eacb3722b183ac96eda810c03582/duerme_mi_nenemusica_solo.mp3) |
+| 49 | **Picture A Christmas** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b3/86/b386e2333a6e158f34431ee4f789947b83322974/picture_a_christmasmusic_only.mp3) |
+| 50 | **Have A Very Merry Christmas** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ff/8e/ff8e6e82c278dffdeac92f049090cfb1ec47b7b5/have_a_very_merry_christmas_music_only.mp3) |
+| 51 | **The Nativity Song** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/12/d5/12d5bc02eeba285c51b76ca74f6d1c9e3cdb3304/canto_de_navidadmusica_solo.mp3) |
+| 52 | **Christmas Bells** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e4/df/e4dfb47b97b9a12dc14e800ff5d48ebbe7dfbbaa/christmas_bellsmusic_only.mp3) |
+| 53 | **Jesus Once Was A Little Child** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/7a/23/7a2383144f9d6b04f671c6a0f1531b4d3b5ee3b9/pequeno_nino_fue_jesusmusica_solo.mp3) |
+| 54 | **I Think When I Read That Sweet Story** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/15/75/1575831288ba127afe59dd5fd6ec87e271e1b0bf/me_gusta_pensar_en_el_senormusica_solo.mp3) |
+| 55 | **Tell Me The Stories Of Jesus** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/66/80/6680587986e6438a18b3165088d60a5b5db88ce1/dime_la_historia_de_cristomusica_solo.mp3) |
+| 56 | **Little Lambs So White And Fair** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/7a/52/7a5285042310d4345a39a90013d5df41bfe3e149/little_lambs_so_white_and_fairmusic_only.mp3) |
+| 57 | **Jesus Is Our Loving Friend** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/03/3b/033ba32f3bdf3e7586ff670e606cbb87391871c1/jesus_is_our_loving_friend_accompaniment_eng.mp3) |
+| 58 | **Jesus Loved The Little Children** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2d/cc/2dcc35898319b0a360c6536821affea8afff4a3b/jesus_loved_the_little_childrenmusic_only.mp3) |
+| 59 | **Jesus Wants Me For A Sunbeam** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/91/72/91721beb7471ca75f766cccbb2ee141d68728e9a/cristo_me_manda_que_brillemusica_solo.mp3) |
+| 60 | **Jesus Said Love Everyone** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/4d/96/4d9654d472b93dd124e88c3beacfe49087323ae7/ama_a_todos_dijo_el_senormusica_solo.mp3) |
+| 61 | **Beautiful Savior** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a6/60/a660863b373a3da291278e4cd4ab41c76ab4e42b/beautiful_saviormusic_only.mp3) |
+| 62 | **Did Jesus Really Live Again** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/be/ea/beead880c2a4b5be705f555378e03b1fd563b1b7/vivio_jesus_una_vez_mas_musica_solo.mp3) |
+| 63 | **He Died That We Might Live Again** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/99/f2/99f244256ba42b8c2e8b0599b93f241bcba09870/he_died_that_we_might_live_againmusic_only.mp3) |
+| 64 | **Hosanna** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/f6/b6/f6b6475901b9e073af9223e980554bb63713277d/hosannamusic_only.mp3) |
+| 65 | **Easter Hosanna** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a4/d6/a4d61850e9a3d0adb9653df6fe1100ea91f8df04/easter_hosannamusic_only.mp3) |
+| 66 | **Jesus Has Risen** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e2/e5/e2e51e717d1cbfaa4735d06f5b106e64e895c0b4/resucito_jesusmusica_solo.mp3) |
+| 67 | **To Think About Jesus** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/be/fa/befa993a0606dfd4aab8414a297b2aba196f66fc/to_think_about_jesusmusic_only.mp3) |
+| 68 | **The Sacrament** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c8/57/c8577f17da19f9da9f028eb561dd23e81bf9d15f/the_sacramentmusic_only.mp3) |
+| 69 | **Before I Take The Sacrament** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/77/cb/77cbe1ee601d1b030b5df5582850ae6e6b02b292/before_i_take_the_sacramentmusic_only.mp3) |
+| 70 | **Help Us O God To Understand** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/4f/03/4f032e18f2440380e1d0b52280c3b450d9fbf70b/help_us_o_god_to_understandmusic_only.mp3) |
+| 71 | **I Feel My Saviors Love** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/aa/1b/aa1b310f0d1c1808f9db6871496b538a0217b343/siento_el_amor_de_mi_salvadormusica_solo.mp3) |
+| 72 | **This Is My Beloved Son** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b6/0f/b60f78ccc5742345bb05a361e046aedb144ca722/this_is_my_beloved_sonmusic_only.mp3) |
+| 73 | **Had I Been A Child** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/27/a0/27a03b3fcb9343dcdbae4bd62bb740cf4c9fb98a/had_i_been_a_childmusic_only.mp3) |
+| 74 | **When He Comes Again** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e8/9a/e89aa0ed73a173aec2edbf6fad074a7a94c40b04/cuando_venga_jesusmusica_solo.mp3) |
+| 75 | **An Angel Came To Joseph Smith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/4f/d7/4fd7d6234b984c1fe20348bfde00f26b1feb246e/an_angel_came_to_joseph_smithmusic_only.mp3) |
+| 76 | **The Golden Plates** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0a/06/0a06f5417de57c13700cc0071fa52f32d8d4aad7/las_planchas_de_oromusica_solo.mp3) |
+| 77 | **The Sacred Grove** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d2/d5/d2d5ed0e1d056985f9a3fba56b70fa8195fe29df/the_sacred_grovemusic_only.mp3) |
+| 78 | **On A Golden Springtime** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/fe/ce/fece9d940675380415972a688eb65d84aa1e9bfe/en_la_primaveramusica_solo.mp3) |
+| 79 | **The Priesthood Is Restored** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/76/69/766945de9ee9c9bf8a4a2951c5668ccfc8ab6d66/el_sacerdocio_se_restauromusica_solo.mp3) |
+| 80 | **Truth From Elijah** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/5d/42/5d42ea58d2574693b46a4e725f1103885c8977ac/truth_from_elijahmusic_only.mp3) |
+| 81 | **The Hearts Of The Children** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d9/d7/d9d7b8b936034791fe916756b61fdabd8c25e66a/the_hearts_of_the_childrenmusic_only.mp3) |
+| 82 | **Family History I Am Doing It** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ad/6b/ad6b33323ca8dee50cdf5779a1d367e00fd2104e/family_history_i_am_doing_it.mp3) |
+| 83 | **Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/7f/56/7f56cb884188f2b89edfcce7b1ea0aecdaef5611/la_femusica_solo.mp3) |
+| 84 | **Gods Love** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/54/95/54955322972e14d0d921dcef725cdab19678d304/god_s_lovemusic_only_restricted_pending_ip_approval.mp3) |
+| 85 | **Repentance** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/33/e2/33e2c952101ef849b57f29be4676b479329a6bc6/repentancemusic_only.mp3) |
+| 86 | **Help Me Dear Father** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/05/31/053137a3f26e2d0d40627fbd4b18d6c404247a32/saber_perdonarmusica_solo.mp3) |
+| 87 | **Baptism** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/6a/e0/6ae0d5438254e312ac85dbf7f84afc8967481e90/el_bautismomusica_solo.mp3) |
+| 88 | **When Jesus Christ Was Baptized** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/bf/14/bf14cb40dbea6ea40b40012031cb8a0ad9720f03/when_jesus_christ_was_baptizedmusic_only.mp3) |
+| 89 | **When I Am Baptized** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/p1/od/p1odbd6nv91wgf0tvznm6az24lybovf1nhn0w012/when_i_am_baptized.mp3) |
+| 90 | **I Like My Birthdays** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/38/3c/383c2b37613f7e0a3ec77422d4d18b6329903de9/i_like_my_birthdaysmusic_only.mp3) |
+| 91 | **The Holy Ghost** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c7/cd/c7cdbf1791d9a75c2fd0d5ec9f5b42f3c0e81534/el_espiritu_santomusica_solo.mp3) |
+| 92 | **The Still Small Voice** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cf/6a/cf6a36d6291bc9aa2c1196b2a0f258486142e210/the_still_small_voicemusic_only.mp3) |
+| 93 | **Listen Listen** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ec/cb/eccbe0b239faf0d49fa629f109861d4c9da974f7/listen_listenmusic_only.mp3) |
+| 94 | **Seek The Lord Early** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/70/67/70677d15d42702d8aa1bb6a9d9bdf0b272965066/buscare_al_senormusica_solo.mp3) |
+| 95 | **Search Ponder And Pray** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/77/c4/77c478c36d66f9c8431e9244f9dea957b23705f0/escudrinar_meditar_y_orarmusica_solo.mp3) |
+| 96 | **Follow The Prophet** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/98/77/9877acdd125a199defd27a90b4cf031ef15b0c7d/sigue_al_profetamusica_solo.mp3) |
+| 97 | **The Commandments** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e9/bf/e9bf04dd7e3dca378773e510151efbb05c99c8a7/the_commandmentsmusic_only.mp3) |
+| 98 | **The Books In The Old Testament** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/7e/c1/7ec149405deec2f3c0cc547a63697d85c2826df3/the_books_in_the_old_testamentmusic_only.mp3) |
+| 99 | **The Books In The New Testament** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b4/4d/b44dcbbf12da552871d42966fc795810ad70a0d4/the_books_in_the_new_testamentmusic_only.mp3) |
+| 100 | **Book Of Mormon Stories** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/bf/b3/bfb3e2a12c208244d864a88dab4764e47f598c8e/historias_del_libro_de_mormonmusica_solo.mp3) |
+| 101 | **The Books In The Book Of Mormon** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1f/77/1f773339a62c44589a1a2cb440f02a95873e9a8a/los_libros_del_libro_de_mormonmusica_solo.mp3) |
+| 102 | **Nephis Courage** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/16/94/16940d0fb8f7cd2239ad78a5718fbef2768b8d26/el_valor_de_nefimusica_solo.mp3) |
+| 103 | **The First Article Of Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/40/bf/40bf286414651be4451aa3df03de774771fb635c/the_first_article_of_faithmusic_only.mp3) |
+| 104 | **The Second Article Of Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d1/df/d1df5ca758c7d8592286d0c41abc9284627c9d17/the_second_article_of_faithmusic_only.mp3) |
+| 105 | **The Third Article Of Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/35/6d/356d89e921fa62da0b72be6b5160123bcd9df4ed/the_third_article_of_faithmusic_only.mp3) |
+| 106 | **The Fourth Article Of Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/bc/c5/bcc57fa5f791c320646e406be817da74d37c63a1/the_fourth_article_of_faithmusic_only.mp3) |
+| 107 | **The Fifth Article Of Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/04/51/0451c0764f6da3ecdeb6d9b4fa43f0ca08d9096d/the_fifth_article_of_faith_accompaniment_eng.mp3) |
+| 108 | **The Sixth Article Of Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b9/d1/b9d13ba33a4ff7f10c6a11bf58e907744e453945/the_sixth_article_of_faithmusic_only.mp3) |
+| 109 | **The Seventh Article Of Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b2/39/b2392c1798c91ae24367203806493f08cf301adf/the_seventh_article_of_faithmusic_only.mp3) |
+| 110 | **The Eighth Article Of Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/85/0f/850f97f64dd8e4f8e64f6dc2368baf73b0c263ab/the_eighth_article_of_faithmusic_only.mp3) |
+| 111 | **The Ninth Article Of Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/7a/82/7a82cbc21e3686cae0a4cf50943214b3675ac92c/the_ninth_article_of_faithmusic_only.mp3) |
+| 112 | **The Tenth Article Of Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/07/88/0788f0f842f8708b7d555ea04151cfa38b791b89/the_tenth_article_of_faithmusic_only.mp3) |
+| 113 | **The Eleventh Article Of Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d6/aa/d6aad57f93b7791a67425b13e295e4a8b052954b/the_eleventh_article_of_faithmusic_only.mp3) |
+| 114 | **The Twelfth Article Of Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/61/7d/617dfd471ebe0d6a361673763e5c9ccbd7bf9b21/the_twelfth_article_of_faithmusic_only.mp3) |
+| 115 | **The Thirteenth Article Of Faith** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/f8/05/f805a816feec57ed2cfe5f301451e4943f237e74/the_thirteenth_article_of_faithmusic_only.mp3) |
+| 116 | **Latter Day Prophets** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2c/14/2c1461ef9bfae031c5ffddfbca605287dd7bea1a/latter_day_prophetsmusic_only.mp3) |
+| 117 | **Our Bishop** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1e/03/1e03d3dbe3f8c1dc30251685e1f00556fd69854a/our_bishopmusic_only.mp3) |
+| 118 | **Love One Another Bray** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/90/eb/90ebb1dcca5e783591c0d2ae60be47ff03f9a99a/amad_a_otrosmusica_solo.mp3) |
+| 119 | **Where Love Is** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/6d/aa/6daabc134a63b5c27df9db8ec5c519723e9f7146/donde_hay_amormusica_solo.mp3) |
+| 120 | **Ill Walk With You** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/fa/5b/fa5be818b723c0c0212945be1e229f57b87b8a6a/contigo_iremusica_solo.mp3) |
+| 121 | **Every Star Is Different** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/bf/ce/bfce7ff07620101f9966b854a346c84fb13c859a/every_star_is_differentmusic_only.mp3) |
+| 122 | **Shine On** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/57/0f/570fd385d9354c719c872873ca852d65a024c7ac/brilha_instrumental.mp3) |
+| 123 | **A Special Gift Is Kindness** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c6/b7/c6b7ed4ef3eca391183dd37db4425bf6564bc404/a_special_gift_is_kindnessmusic_only.mp3) |
+| 124 | **Kindness Begins With Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/42/cd/42cde81ad751f28619b53aaa57f660e3c1d150f8/la_bondad_por_mi_empiezamusica_solo.mp3) |
+| 125 | **Keep The Commandments Wolford** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e8/fe/e8fec10541adf984a321addccacd3a0f1eca782e/siempre_obedece_los_mandamientosmusica_solo.mp3) |
+| 126 | **I Want To Live The Gospel** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ac/53/ac53b23074811d2a1a88249f240264d80eb4ea49/voy_a_vivir_el_evangeliomusica_solo.mp3) |
+| 127 | **I Believe In Being Honest** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a7/20/a720ea2e0d5b87b0d288e362d69950711094becf/i_believe_in_being_honestmusic_only.mp3) |
+| 128 | **Im Glad To Pay A Tithing** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/bd/1a/bd1a754766f6c270e5cffaa4a40ca5a9d3170369/i_m_glad_to_pay_a_tithingmusic_only.mp3) |
+| 129 | **I Want To Give The Lord My Tenth** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/11/74/117489b5fc61c7865bded2e64b42c28ef83d529f/i_want_to_give_the_lord_my_tenthmusic_only.mp3) |
+| 130 | **I Am Glad For Many Things** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/00/4d/004d048072cb2c52ed4f124996d685b3bd8b182d/i_am_glad_for_many_things_accompaniment_eng.mp3) |
+| 131 | **Hum Your Favorite Hymn** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/63/f7/63f78f6eb51646938926d6c90fa305e814d9864a/hum_your_favorite_hymnmusic_only.mp3) |
+| 132 | **The Lord Gave Me A Temple** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/58/e8/58e8bcbe5e799aa637f7c3d711660e4fb9b48b60/el_senor_me_dio_un_templomusica_solo.mp3) |
+| 133 | **The Word Of Wisdom** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/04/a1/04a10f196e693f970832c99b8e1aad6cd0730296/the_word_of_wisdom_accompaniment_eng.mp3) |
+| 134 | **Remember The Sabbath Day** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ee/c0/eec029fa3011f79021c57abe0a6d2b43f273e9ed/remember_the_sabbath_daymusic_only.mp3) |
+| 135 | **The Chapel Doors** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/64/dc/64dc509a350bc67021aca226c871873753bec798/the_chapel_doorsmusic_only.mp3) |
+| 136 | **When I Go To Church** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/41/a4/41a4ab0d1dc4f493aa3793496d204a0c974c5c56/when_i_go_to_churchmusic_only.mp3) |
+| 137 | **Dare To Do Right** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/7a/77/7a775be2c6e4c5908f730a60866ea78a93c70664/muestra_valormusica_solo.mp3) |
+| 138 | **Stand For The Right** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/91/0b/910bb62a183c52f5492c55e669af2daa784ab8e3/defiende_el_bienmusica_solo.mp3) |
+| 139 | **Choose The Right Way** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/eb/d1/ebd102dd87c0838adaea3bcd4182e8ec74dcd568/escojamos_lo_correctomusica_solo.mp3) |
+| 140 | **I Pledge Myself To Love The Right** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/5e/8d/5e8d5d0380c1eb976c7a7739db5f62b424bb9f24/i_pledge_myself_to_love_the_rightmusic_only.mp3) |
+| 141 | **I Will Be Valiant** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/28/05/280524602694d619b21115f316dd7312ae24352d/voy_a_ser_valientemusica_solo.mp3) |
+| 142 | **I Am Like A Star** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/32/6d/326dbd2e867d72f824dc4a73e3cc44b6245d3596/yo_soy_como_estrellamusica_solo.mp3) |
+| 143 | **I Will Follow Gods Plan** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/43/e3/43e3071592c2b3c33ce695012a39729c947241a0/el_plan_de_dios_puedo_seguirmusica_solo.mp3) |
+| 144 | **A Young Man Prepared** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c9/3a/c93ac7f2039bc44a6c78fbb61d762bd357091060/joven_digno_y_habil_seremusica_solo.mp3) |
+| 145 | **Go The Second Mile** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b3/5b/b35b24aa26006e90fd7125dea48462474e7d958d/go_the_second_milemusic_only.mp3) |
+| 146 | **I Want To Be A Missionary Now** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/f9/46/f946b7c3941ac5f6c36582ef72c2ccbc21775599/yo_quiero_ser_un_misionero_yamusica_solo.mp3) |
+| 147 | **I Hope They Call Me On A Mission** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/6c/c3/6cc368d2e94170821cbce8f491e2d4b96b9ad013/espero_ser_llamado_a_una_misionmusica_solo.mp3) |
+| 148 | **The Things I Do** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/67/19/6719f9f7b03a552a23c3a7ebfcfb3c5493966fa9/the_things_i_domusic_only.mp3) |
+| 149 | **Well Bring The World His Truth** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/88/73/88730e43641dd57cc04051086da60fcf78e8d78b/llevaremos_su_verdad_al_mundo_el_ejercito_de_helaman_musica_solo.mp3) |
+| 150 | **Called To Serve 1989** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/fd/7c/fd7c788c4a4fefcf4fa01c272a4df68e6e6a2a79/llamados_a_servirmusica_solo.mp3) |
+| 151 | **Tell Me Dear Lord** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/68/c1/68c19cad99e93fc51c49f5a99727a32355b417d5/dime_senormusica_solo.mp3) |
+| 152 | **Teach Me To Walk In The Light Wolford** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/4d/35/4d3505e5230e7863f172e23c3fc87af6d5c71398/hazme_andar_en_la_luzmusica_solo.mp3) |
+| 153 | **Teacher Do You Love Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/29/2b/292bb1a99947e6341c59806556d9822ff1b04075/teacher_do_you_love_me_music_only.mp3) |
+| 154 | **How Dear To God Are Little Children** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0f/6e/0f6e7675751fe177956bb98d730dd06c989ccd23/how_dear_to_god_are_little_childrenmusic_only.mp3) |
+| 155 | **How Will They Know** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a8/95/a895ed5b6d10234c608f81adf9ee2b681553ac7f/how_will_they_know_music_only.mp3) |
+| 156 | **Families Can Be Together Forever 1989** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a0/6f/a06fa69ee31ca5193b038f73a7584143a41a9962/las_familias_pueden_ser_eternasmusica_solo.mp3) |
+| 157 | **Family Prayer** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1d/fd/1dfdbefac07a70cb3d0a1b46a97cb5cbeefbe2c2/oracion_familiarmusica_solo.mp3) |
+| 158 | **Love Is Spoken Here** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/01/07/010709a942d9e4c87bde6908d4771d3389a939e0/love_is_spoken_here_accompaniment_eng.mp3) |
+| 159 | **Home** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/8d/d4/8dd4506b43231192aaa7da83034a7ed29b4ab9d5/homemusic_only.mp3) |
+| 160 | **Sing Your Way Home** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3a/14/3a14d53b2e0edfb50ee33fe8ce464e5bb77c7189/con_un_cantarmusica_solo.mp3) |
+| 161 | **The Family** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9a/4a/9a4abd57f7738b8a77ddaf617761eb75e2a8eeba/the_familymusic_only.mp3) |
+| 162 | **Family Night** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cb/95/cb955cfdca97721dc8247b6bdb4817aa85f862a6/family_nightmusic_only.mp3) |
+| 163 | **Saturday** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c9/51/c951db12c36045a220f1e35ec3073a32feb6892b/el_sabadomusica_solo.mp3) |
+| 164 | **A Happy Helper** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/5c/c1/5cc141360e81879b4c864d55f1ea7dc0430b0a88/a_happy_helpermusic_only.mp3) |
+| 165 | **Quickly Ill Obey** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d3/b9/d3b9a35fdc6ee91f633b79eed47a51652ae7c4ec/obedienciamusica_solo.mp3) |
+| 166 | **A Happy Family** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/31/56/315683e9876a37627d1cf41f3c9e29df37f01cbf/una_familia_felizmusica_solo.mp3) |
+| 167 | **When Were Helping** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d0/bc/d0bcee830c58f032c1d666f2304dd2afe515e284/cuando_ayudamosmusica_solo.mp3) |
+| 168 | **I Have A Family Tree** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2e/2d/2e2d4e65652666149641f7d8e0d1479a63050a1c/i_have_a_family_treemusic_only.mp3) |
+| 169 | **Grandmother** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/fe/56/fe56161d6bc1278d4d91a98e91e97b7e5484543b/la_abuelitamusica_solo.mp3) |
+| 170 | **I Often Go Walking** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c8/4e/c84e9fd5efceb2626f4e35f5d3ea99b4c1105790/por_campos_de_trebol_paseomusica_solo.mp3) |
+| 171 | **My Mother Dear** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/bb/2e/bb2e11a2e5e0a365a16dcf07c90303f79053d814/como_el_sol_en_la_mananamusica_solo.mp3) |
+| 172 | **Mother Tell Me The Story** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1d/67/1d67a8a3f5b640a2a6eaf0fe9285a306bd2da39f/mother_tell_me_the_storymusic_only.mp3) |
+| 173 | **Mother Dear** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/f7/d6/f7d6dc8c40d5591416de518262e497d793ab5fb2/madrecita_de_mi_amormusica_solo.mp3) |
+| 174 | **Dearest Mother I Love You** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1c/1a/1c1ac98c3ce6b119c7d0d92ad5079b08ddc7a042/dearest_mother_i_love_youmusic_only.mp3) |
+| 175 | **Mother I Love You** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c9/07/c9070315b7b1164c8b685ebcc7381b483d054be5/madre_te_amomusica_solo.mp3) |
+| 176 | **The Dearest Names** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/65/1e/651edc1e846e69e04af9bc945d4b63cad39ead18/los_nombres_mas_bellosmusica_solo.mp3) |
+| 177 | **Fathers** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/72/0a/720ae9ca7ad060f8f598af83472f503de010998f/fathersmusic_only.mp3) |
+| 178 | **Daddys Homecoming** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/5c/b4/5cb44c7cc16f8f8289496cd61be21419dcab0f31/cuando_papa_vuelvemusica_solo.mp3) |
+| 179 | **My Dad** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b6/1e/b61e67db2baa76c9a4539946bf45ed089b01e638/mi_papamusica_solo.mp3) |
+| 180 | **Pioneer Children Sang As They Walked** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/29/00/290037f13f3b01161e91fc15e20a58d195c88b6f/ninos_pionerosmusica_solo.mp3) |
+| 181 | **Pioneer Children Were Quick To Obey** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1f/dc/1fdcb09ec3006ac68341e296621dea1343d83d80/pioneer_children_were_quick_to_obeymusic_only.mp3) |
+| 182 | **Little Pioneer Children** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/f9/c0/f9c00707db5bc6124152bde7d13136f63a0bd29b/little_pioneer_childrenmusic_only.mp3) |
+| 183 | **Westward Ho** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/47/48/4748b5ada2542b96052d4886b7cb61c94253e68a/westward_ho_music_only.mp3) |
+| 184 | **To Be A Pioneer** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9d/32/9d32e81e04094e870117724b82ed35f6ddb16738/para_ser_pioneromusica_solo.mp3) |
+| 185 | **The Oxcart** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/8e/75/8e75737456111e858c011c5b1cfe6996c3a50dfa/the_oxcartmusic_only.mp3) |
+| 186 | **The Handcart Song** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/46/fd/46fd72c088495c6d1415d279198d7c5fc388147d/the_handcart_song_vocal_accompaniment_eng.mp3) |
+| 187 | **Covered Wagons** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c6/a6/c6a6a3c6cd90cdf601c67ff8eebe7616ef5130cf/covered_wagonsmusic_only.mp3) |
+| 188 | **Whenever I Think About Pioneers** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/45/dc/45dc115df41b53c0ff42d79a8c3badecf8d908ef/whenever_i_think_about_pioneersmusic_only.mp3) |
+| 189 | **My Country** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/76/75/767544147dc7aa5e5bbf97ad910cc567b0c77c0c/my_countrymusic_only.mp3) |
+| 190 | **My Flag My Flag** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/66/5e/665e4f6ddccae6cc3cd357dbeea8c54f60bc3c3c/my_flag_my_flagmusic_only.mp3) |
+| 191 | **My Heavenly Father Loves Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/be/cb/becb9d4ff56d6bce3920ea55df56b150cca5cf4b/mi_padre_celestial_me_amamusica_solo.mp3) |
+| 192 | **I Think The World Is Glorious** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d0/50/d050971b3f6e437095c1adb21cf687e55cc5f0ae/el_mundo_es_gloriosomusica_solo.mp3) |
+| 193 | **All Things Bright And Beautiful** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/8a/d6/8ad64d3ddcf4bc731d7d1f78c49f496cfc43ab0a/all_things_bright_and_beautifulmusic_only.mp3) |
+| 194 | **Beauty Everywhere** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ef/dd/efddc45307a67a1b5f3b66a0df28fddeba24e6ad/belleza_por_doquiermusica_solo.mp3) |
+| 195 | **The World Is So Lovely** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2e/8a/2e8a736d95063e2e1e77978366f7f4d2bd998910/el_mundo_es_tan_bello_musica_solo.mp3) |
+| 196 | **Because God Loves Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ee/89/ee89e6f6161b8b9bcd20e97dcd4915c2e8681576/because_god_loves_memusic_only.mp3) |
+| 197 | **The World Is So Big** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e2/fe/e2fecd984c545a05c92741e054556a480878a518/the_world_is_so_bigmusic_only.mp3) |
+| 198 | **Give Said The Little Stream** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c6/e7/c6e7331ae35c2972d39f80d0a3a3c359332b920e/el_arroyito_damusica_solo.mp3) |
+| 199 | **The Prophet Said To Plant A Garden** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ad/89/ad890dc46b0423a7296dbd3bad731c559a75c28f/the_prophet_said_to_plant_a_gardenmusic_only.mp3) |
+| 200 | **Because Its Spring** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/80/27/80279e890b244150893d2e17d8d281d07c4d7972/because_it_s_springmusic_only.mp3) |
+| 201 | **In The Leafy Treetops** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/75/b7/75b7384eb4b974ec66b4a436b7dedaceee2f44ef/in_the_leafy_treetopsmusic_only.mp3) |
+| 202 | **Birds In The Tree** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/22/c6/22c651a2f61753c72b79a4f3958bc9fb1b151833/birds_in_the_treemusic_only.mp3) |
+| 203 | **Rain Is Falling All Around** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e0/63/e063f5c6a8b4f84f91069f997f30b369f75e727a/cae_la_lluvia_alrededormusica_solo.mp3) |
+| 204 | **Popcorn Popping** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e2/28/e2287c8f3199845539289fb035b9fbfa2278866d/palomitas_de_maizmusica_solo.mp3) |
+| 205 | **Little Seeds Lie Fast Asleep** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/86/0f/860f621c03ff70fcf44d6c57d8f3a1a1a5eb3105/las_semillas_duermenmusica_solo.mp3) |
+| 206 | **Little Purple Pansies** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/35/35/35356a1bd3f34a3cb49c693fa1ed24eaee8c1345/little_purple_pansiesmusic_only.mp3) |
+| 207 | **Oh What Do You Do In The Summertime** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c3/8a/c38a9620aa6e25f847557db6b81a161ed6accb50/que_haces_en_el_verano_musica_solo.mp3) |
+| 208 | **Its Autumntime** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/77/94/77943355aafe367abd2358d97d1754b43c86f9f1/it_s_autumntimemusic_only.mp3) |
+| 209 | **Autumn Day** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c0/1c/c01c340195c6fa8eae09c9ceaf9da63cb68821ea/autumn_daymusic_only.mp3) |
+| 210 | **Falling Snow** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/7b/0d/7b0d76f7e5579bc075c4a3bd5b19e11d404c844a/falling_snowmusic_only.mp3) |
+| 211 | **Once There Was A Snowman** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/50/f8/50f8c58775015e01e225bad6573a88d52e3bfd38/este_era_un_monomusica_solo.mp3) |
+| 212 | **Lift Up Your Voice And Sing** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d5/8e/d58e7a11eeeb443424720df28766e00a494f2e55/alza_al_cielo_el_sonmusica_solo.mp3) |
+| 213 | **Sing A Song** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/23/47/2347347353e328faab4f72001bc6706838d92c14/sing_a_song_round_music_only.mp3) |
+| 214 | **Fun To Do** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/96/c8/96c852ec17b7f949442d00bbeba4162843cbc771/que_divertido_esmusica_solo.mp3) |
+| 215 | **Hello Friends** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/58/53/5853ea33de372b67a0fe84dc651312a606eba9b5/hello_friends_music_only.mp3) |
+| 216 | **Our Door Is Always Open** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/bc/2e/bc2e1ef8d51b285ea8071bb6d3a35bfb5cf87b6d/our_door_is_always_openmusic_only.mp3) |
+| 217 | **Come With Me To Primary** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e3/c0/e3c007f62db4e48e537fd92b4878e9555e983df9/come_with_me_to_primarymusic_only.mp3) |
+| 218 | **We Welcome You** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/66/c9/66c900d9935b5bfbd1998c6180a61d6daf529a41/we_welcome_youmusic_only.mp3) |
+| 219 | **Our Primary Colors** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a9/c6/a9c6cb3a2b0f6950fc40aa2f947a029ae1b70603/los_colores_de_nuestra_primariamusica_solo.mp3) |
+| 220 | **Were All Together Again** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/6a/4b/6a4b637d7e1aa3424230b1c3456e4de516853301/we_re_all_together_againmusic_only.mp3) |
+| 221 | **Hello Song** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/57/32/5732b4b17ba209d87a676773ef1f81f7d192a88e/hola_musica_solo.mp3) |
+| 222 | **Here We Are Together** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/4c/59/4c59a7959937ce354616b179cae399232e517dbf/here_we_are_togethermusic_only.mp3) |
+| 223 | **Friends Are Fun** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c9/94/c994c437398850aa8a9f3bffdedc5a9925081cc8/friends_are_funmusic_only.mp3) |
+| 224 | **We Are Different** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2c/c7/2cc7656f6ddb449ad76cd93f91567160319c5306/we_are_differentmusic_only.mp3) |
+| 225 | **Happy Song** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e7/df/e7df4f0402321ed80cf6887b3debdc0009fcc2e2/happy_songmusic_only.mp3) |
+| 226 | **If Youre Happy** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/fd/b3/fdb317b7ebe9de1c44b42e04390a4d5ecb52572a/si_te_sientes_felizmusica_solo.mp3) |
+| 227 | **Smiles** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/42/04/42044130e0ba72e77008a641059a866d1bc04fd0/sonrisasmusica_solo.mp3) |
+| 228 | **A Smile Is Like The Sunshine** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2d/87/2d87899f9e49dfe74a8209bce1bd76d990b3b3e2/a_smile_is_like_the_sunshinemusic_only.mp3) |
+| 229 | **Two Little Eyes** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/8c/1e/8c1e85402b853a8dc487d3ad50a7091831d8e790/two_little_eyesmusic_only.mp3) |
+| 230 | **I Have Two Ears** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a5/ad/a5add34210b2201360a92c3965232e735b7a986e/i_have_two_earsmusic_only.mp3) |
+| 231 | **Two Happy Feet** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/44/5d/445d88626094ce070c34d9b188d533be75865a50/two_happy_feetmusic_only.mp3) |
+| 232 | **I Wiggle** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/62/21/62210477c7d15bfafa7dbc66a64010633a8894a2/i_wigglemusic_only.mp3) |
+| 233 | **I Have Two Little Hands** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/f0/e4/f0e4d50a4e45f4512d5bc58185aae6c929904117/mis_manitasmusica_solo.mp3) |
+| 234 | **My Hands** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9e/53/9e53974c75f56c0a6a0bdf14053fa441e8597ec3/my_hands_music_only.mp3) |
+| 235 | **Roll Your Hands** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/44/a1/44a1de3e75a12c9dede47544ea6550cdc23a3d6d/roll_your_handsmusic_only.mp3) |
+| 236 | **Head Shoulders Knees And Toes** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b7/53/b753b0d45dc8a6cbc7b34516ddc4a9157b80a58c/cabeza_cara_hombros_piesmusica_solo.mp3) |
+| 237 | **To Get Quiet** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0b/1d/0b1da13f68921a0d672c44d716f96fbbf0bbb3fb/to_get_quietmusic_only.mp3) |
+| 238 | **Do As Im Doing** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/fb/cc/fbcc07ddad3d32cddcc10a413fbfdfb505ccd88a/hazlo_conmigomusica_solo.mp3) |
+| 239 | **Hinges** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/bb/4e/bb4e2e72b3643bddb60d8df5adfebbc6c0d7f9c2/me_doblomusica_solo.mp3) |
+| 240 | **Stand Up** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ba/b7/bab7a406ea14281237ebf4b3fa473e64f2892185/stand_upmusic_only.mp3) |
+| 241 | **Oh How We Love To Stand** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/51/0a/510a7607dd3ff17679526373608b6f96c861e4bf/oh_how_we_love_to_standmusic_only.mp3) |
+| 242 | **Healthy Wealthy And Wise** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a0/cb/a0cb145c2b828adf03aa06298eb72139be4b320c/healthy_wealthy_and_wisemusic_only.mp3) |
+| 243 | **The Wise Man And The Foolish Man** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/4d/fa/4dfa51b933788edc6d3010e6ff7458c9e2ff32a2/el_sabio_y_el_imprudentemusica_solo.mp3) |
+| 244 | **Feliz Cumpleanos** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c7/fc/c7fce78e570c8492242f51d3bc75cacbe56e4761/feliz_feliz_cumpleanosmusica_solo.mp3) |
+| 245 | **Your Happy Birthday** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/7b/a9/7ba913d7bfe9d8e509edbe691e45247f74be49e9/your_happy_birthdaymusic_only.mp3) |
+| 246 | **Happy Happy Birthday** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a5/2c/a52c1fed507bf477375e896025e1df22400fcb58/happy_happy_birthdaymusic_only.mp3) |
+| 247 | **Have A Very Happy Birthday** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1d/87/1d87f64e34390052e1235cecc42ef63cca2feca9/have_a_very_happy_birthday_music_only.mp3) |
+| 248 | **Youve Had A Birthday** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0e/27/0e274a6bca3e28ca120de5ebb9d76530af70c244/cumpliste_anos_rondo_musica_solo.mp3) |
+| 249 | **Impromptu** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/dc/e0/dce0b0b88046f2e26796e58d02c4f8624cc6935d/impromptuprelude_music_only.mp3) |
+| 250 | **To A Wild Rose** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/5b/0f/5b0fb3ebafae6839e02374d0457f0b7db520e670/to_a_wild_roseprelude_music_only.mp3) |
+| 251 | **Each Sunday Morning** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/8e/4f/8e4f770bb1093c115f7fd0a0a2ecbee3550f5543/each_sunday_morningprelude_music_only.mp3) |
+| 252 | **In Quietude** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/00/ff/00ff13d4f682785337319a5812eb13dacfd023e7/in_quietude.mp3) |
+| 253 | **Loving Shepherd** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/6d/bf/6dbf5adab807c0ce11ac3865467a1756dca6147a/loving_shepherdprelude_music_only.mp3) |
+| 254 | **Morning Prayer** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/5f/77/5f77d7460072143e169ab6aefd9e2ff300c6aa9e/morning_prayerprelude_music_only.mp3) |
+| 255 | **My Heart Ever Faithful** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/88/71/88713e4a7419dddc3567e3529a3cc39789661557/my_heart_ever_faithfulprelude_music_only.mp3) |
+| 256 | **Andante** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/25/d8/25d8cbf0226cfcbaa05493a900b3e31761dad0a5/andanteprelude_music_only.mp3) |
+| 257 | **O Rest In The Lord** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/f2/78/f27815f16c94acf8f2e5da7da3e8361a02d19770/o_rest_in_the_lordprelude_music_only.mp3) |
+| 258 | **Air From Orpheus** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ea/6e/ea6ed598de1857a9e9bdffb43f1db8cdbeb25405/air_from_orpheusprelude_music_only.mp3) |
+| 259 | **Supplication** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1a/cd/1acd0a58d6bf4049dd674fa4e98f976e39b255b1/supplicationprelude_music_only.mp3) |
+| 260 | **Prelude In F** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/bf/57/bf5703d6e83a05cc7d8861b7e547fc5b6bd692ac/prelude_in_fprelude_music_only.mp3) |
+| 261 | **Distant Bells** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0b/08/0b08dc38e445ec1735b22b68f662e343a3e6b247/distant_bellsprelude_music_only.mp3) |
+
+
+## 📚 Collection: Youth and Contemporary Music
+Total Audio Files Indexed: `255` 
+
+| # | Song Name | Direct CDN Audio Stream Link |
+|---|-----------|------------------------------|
+| 1 | **A Great Work** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3a/41/3a41775e6f01e8d1ccccf0c0d9b1f7c172a040e0/a_great_work.mp3) |
+| 2 | **A Great Work Acoustic** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cf/a2/cfa23869a5a02606928671fb2297e1fe97e9a0b5/youth_theme_2021_a_great_work_female_version_instrumental.mp3) |
+| 3 | **A Great Work Face To Face** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/01/d9/01d94edab2dd1eefadab3a6d54a3d4a57571e690/great_work_youth_theme.mp3) |
+| 4 | **2020 11 A Great Work** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2a/94/2a9492ed1330da727e6ac56b572a621452b4e607/a_great_work_young_women_f2f.mp3) |
+| 5 | **2021 03 A Great Work** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/01/53/0153fe347acddb33b04439005f28df2e2dc243cb/a_great_work.mp3) |
+| 6 | **A Light To The World** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/82/fe/82fe85ae1d5b11ecac0eeeeeac1e10ba3a718186/2021_09_a_light_to_the_world_vocals_eng.mp3) |
+| 7 | **A Missionarys Prayer Burton** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/83/cc/83cc0ed01d5b11eca865eeeeac1e3df9bc8131f9/2021_09_a_missionarys_prayer_burton_vocals_eng.mp3) |
+| 8 | **A Savior Is Born** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/63/b6/63b63d62939211ee93adeeeeac1ea374c1ad4ff9/a_savior_is_born_day_acc.mp3) |
+| 9 | **All For Me 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/uj/p0/ujp0lbf05byjiie8hu3hxobbarl5g9b0g4oxw5pg/all_for_me_instrumental_2026.mp3) |
+| 10 | **All For Me 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/uj/p0/ujp0lbf05byjiie8hu3hxobbarl5g9b0g4oxw5pg/all_for_me_instrumental_2026.mp3) |
+| 11 | **All My Heart 2022** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/04/6c/046cec37391f11edb800eeeeac1e1a13802c16ff/all_my_heart_2023_acc.mp3) |
+| 12 | **Always** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b4/20/b4200152611710650b95c2ae83c15442cbe39f36/always_feat_jefferson_murdockmusic_only.mp3) |
+| 13 | **Ask Of God** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9c/c6/9cc67ec7679117ba12c11ffcfcdbdd99c9fc6929/2018_mutual_music_the_unknown.mp3) |
+| 14 | **Ask Of God Acoustic** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1b/dd/1bdd183ba1f9c8d06c26efe768cb083b63e69bdb/2018_mutual_music_body_of_christ.mp3) |
+| 15 | **2020 09 Awake And Arise Lowe** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d3/d5/d3d51b1c6a5cc0d8ea3cb903a0fef3f34f09dbd6/rasband_awake_arise.mp3) |
+| 16 | **Be Not Troubled Spurlock** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/co/y5/coy57q3c87278ne28xhlb5ri4c2hr4pfhboxnroh/be_not_troubled.mp3) |
+| 17 | **Because He Lives Piano 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/un/3h/un3h6f16f8zaaooy73qrnzyuk86robq4a12k4189/because_he_lives_2025.mp3) |
+| 18 | **Because He Lives 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/un/3h/un3h6f16f8zaaooy73qrnzyuk86robq4a12k4189/because_he_lives_2025.mp3) |
+| 19 | **2020 07 Beautiful Savior** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0b/5e/0b5eb8e7c7a71e4788a1dd8430c1b24abaa46c25/beautiful_savior_music_festival.mp3) |
+| 20 | **Beloved 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/7f/05/7f0583952b0611eea5edeeeeac1e2eaa683a6ff3/beloved_instrumental_2024.mp3) |
+| 21 | **Beloved Reimagined 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/8c/47/8c4711962b0611eea145eeeeac1e151e7630ad0c/beloved_reimagined_instrumental_2024.mp3) |
+| 22 | **Better Life** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c5/84/c584182228fc163eeb6601631926e1ea3f9b13c8/better_life_minus_track.mp3) |
+| 23 | **Better Man Beinbein Amgbari** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/4b/be/4bbe1b15346311ed8f7deeeeac1e76bc70921f57/better_man_beinbein_amgbari_audio.mp3) |
+| 24 | **Big Or Small** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/fe/04/fe045a92641c6322e092d57517a99e259b903fc5/big_or_small.mp3) |
+| 25 | **Blessings Day Harms** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/76/a5/76a53567648ad2a3e1d27832cf3ffe73648cd6b7/blessings_minus_track.mp3) |
+| 26 | **Carry Me 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cb/76/cb76b9c90e2111ef9cf6eeeeac1ebd08254ed430/carry_me_instrumental_2025.mp3) |
+| 27 | **Celebrate** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/22/ba/22bac9f4b6fa11ee87d5eeeeac1e2925066b4114/celebrate_instrumental.mp3) |
+| 28 | **Change Arp299** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/4c/8b/4c8baddbaed8dadd16a1a9257e26a9ecda442629/change_strong_remixes.mp3) |
+| 29 | **Change** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/57/95/5795705e124d235a9510c92febce926449f9f22c/change.mp3) |
+| 30 | **Choose To Stay** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/54/40/5440d5d3b593b13d205c041af4d25327b830d1ff/2018_mutual_music_peace_in_christ_male.mp3) |
+| 31 | **Christ The Lord 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cb/f9/cbf9cc7a0e2111ef9cf6eeeeac1ebd08f036925c/christ_the_lord_instrumental_2025.mp3) |
+| 32 | **Christ The Lord 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cb/f9/cbf9cc7a0e2111ef9cf6eeeeac1ebd08f036925c/christ_the_lord_instrumental_2025.mp3) |
+| 33 | **Come As You Are 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/yb/yo/ybyobgvn7doc6kvwzj248l3g73jiygeoqu5nudhe/come_as_you_are_2025.mp3) |
+| 34 | **Come To The Well** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ec/47/ec47807ab9d8e4598f16368c0c3c7d7fa150b7b7/youth_theme_2021_come_to_the_well_instrumental.mp3) |
+| 35 | **2021 03 Come To The Well** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c2/be/c2be83f6ec5a488598077a1d11adfce1555cd880/come_to_the_well_portuguese_youth_music_festival_2021.mp3) |
+| 36 | **2021 03 Come To The Well Alexander** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/7f/bc/7fbcbbd6060becf1c0a8a2da3afd970dcc32377a/come_to_the_well_acoustic_youth_music_festival_2021.mp3) |
+| 37 | **2020 02 Come Ye Children Of The Lord** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1a/5e/1a5e092d37093c25461a9f1bbf61737fa243c6df/come_ye_childrens_of_the_lord_face_to_face_oaks_eng.mp3) |
+| 38 | **2020 09 Come Thou Fount** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1f/6a/1f6a4a3fd771210b068b00ff96e09ae02d7d0f82/come_fount_blessing_rasband.mp3) |
+| 39 | **Daughter Of God 2026** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/8zlc28ywmnpfqjv0rgabzo6xi8jumwcqwop1qntt-256k-en.mp3) |
+| 40 | **Daughter Of Light 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cc/7f/cc7fec6d0e2111efb36aeeeeac1e700ceee82322/daughter_of_light_instrumental_2025.mp3) |
+| 41 | **Diamond 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/95/b4/95b43f042b0611ee8d92eeeeac1e192a43e7a280/diamond_instrumental_2024.mp3) |
+| 42 | **Disciple Of Christ Piano Version 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a2/9d/a29d73d52b0611eeb9eeeeeeac1e07d04fbda1fe/disciple_of_christ_female_instrumental_2024.mp3) |
+| 43 | **Disciple Of Christ 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a8/cc/a8cc66352b0611ee8d92eeeeac1e192a6e6400f2/disciple_of_christ_instrumental_2024.mp3) |
+| 44 | **Disciple Of Christ Piano Version 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a2/9d/a29d73d52b0611eeb9eeeeeeac1e07d04fbda1fe/disciple_of_christ_female_instrumental_2024.mp3) |
+| 45 | **Divine** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/41/d0/41d0fe774bb211ecb760eeeeac1ede299fbc4570/divine_accompaniment.mp3) |
+| 46 | **Doubt Not 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cc/f6/ccf606cd0e2111efb67ceeeeac1e4eb57075458d/doubt_not_instrumental_2025.mp3) |
+| 47 | **Dust** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/41/0f/410f834e4bb211ec81e4eeeeac1e6f4d6a555729/dust_accompaniment.mp3) |
+| 48 | **Eyes On You 2026** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/jytmez7t8lzvuk10r4y9ddk24c0puo68z14wi4db-256k-en.mp3) |
+| 49 | **Empty** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c8/7d/c87df682311eec4f840c475035b201ee75e32301/empty.mp3) |
+| 50 | **2021 03 Etendeni Lami** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/05/e8/05e8150b916ffa137703460c0856a22a81bb0dda/etendeni_lami_zulu_youth_music_festival_2021.mp3) |
+| 51 | **Emmanuel 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9p/vw/9pvwqmy4iv9pq6rvofesxqam5jgso2kcq0upx5su/emmanuel_instrumental_2026.mp3) |
+| 52 | **Eternal 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ba/7e/ba7e1f932b0611eeba59eeeeac1ef7e5f6d52410/eternal_instrumental_2024.mp3) |
+| 53 | **Faith 2023** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/07/24/0724b930391f11ed86f1eeeeac1e350bce4105c4/faith_2023_acc.mp3) |
+| 54 | **2021 11 Faith In You** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/55/52/555256b23d7511ec91c8eeeeac1e74a3525c09bf/2021_11_faith_in_you_eng.mp3) |
+| 55 | **Family 2027** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/dh/l5/dhl5o15qiijkf06hkjyik81ad5ewf0mzeyi8e5gf/family_2027.mp3) |
+| 56 | **Fear Not 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cd/69/cd69fe440e2111efab3beeeeac1eef6e7aee3bd9/fear_not_instrumental_2025.mp3) |
+| 57 | **Follow 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d1/00/d1003297388d11efa0d1eeeeac1e4c5be9769304/follow_2024.mp3) |
+| 58 | **Follow 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d1/00/d1003297388d11efa0d1eeeeac1e4c5be9769304/follow_2024.mp3) |
+| 59 | **Follow Me Yordy** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/18/56/1856cd2022ff11ed8de0eeeeac1e5d7afcc0caa0/follow_me_yordy_2022.mp3) |
+| 60 | **Footsteps** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0b/da/0bda713275b894ddf756d408e6d32c245eb65431/footsteps_2019_youth_album.mp3) |
+| 61 | **Forget** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/de/70/de7033dddbeb2b5c211d4760152419b856e9bd1a/forget_2019_youth_album.mp3) |
+| 62 | **Found Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/83/48/83489c4ff8ac11eca527eeeeac1e015a1d96d12d/found_me_2022_inst.mp3) |
+| 63 | **Free 2023** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/52d03506c98a11edab0eeeeeac1e8494ba05d5b4-256k-en.mp3) |
+| 64 | **Free My Soul** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/58/83/5883a129f0a97c7d1105d5b230e2e7405854f220/youth_theme_2021_free_my_soul_instrumental.mp3) |
+| 65 | **2021 03 Free My Soul** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/66/7c/667cdb623ee192f4cde42580cbf719da50f6024e/2021_youth_music_festival_free_my_soul.mp3) |
+| 66 | **Fsy Medley 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/df/a4/dfa4d303388d11ef8644eeeeac1e3b0d102719d7/fsy_medley_2024.mp3) |
+| 67 | **Gather Me 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/6d/21/6d21il3gpofbbghf11azgqsppskgyozlwkiiiunf/gather_me_2024.mp3) |
+| 68 | **Get To Zion 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cd/d7/cdd7661e0e2111efb67ceeeeac1e4eb5bc357b99/get_to_zion_instrumental_2025.mp3) |
+| 69 | **Good Day** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9f/ec/9fecbc2066e78e7c4a046cd88515d021e364b877/good_day.mp3) |
+| 70 | **Good Day** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9f/ec/9fecbc2066e78e7c4a046cd88515d021e364b877/good_day.mp3) |
+| 71 | **2020 07 Good Day** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b4/ba/b4bae5677c1d9b23a7a100bf7d3d330d9b28ba30/good_day_music_festival.mp3) |
+| 72 | **Good Day** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9f/ec/9fecbc2066e78e7c4a046cd88515d021e364b877/good_day.mp3) |
+| 73 | **Good Friends** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d5/ba/d5baf421c351bde7493ae3292daa1e0dace8c354/good_friends.mp3) |
+| 74 | **Grateful Choque** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/39/75/3975f53122ff11ed8de0eeeeac1e5d7a28bc91d3/grateful_cheque_2022.mp3) |
+| 75 | **Grateful For The Rain 2023** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/97/b2/97b2fa07e2a611ecbf04eeeeac1e1f66280bf03e/grateful_for_the_rain_2022.mp3) |
+| 76 | **Greater Love 2026** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/fp/5l/fp5lpd321go1eczbow3zjzd1g8318t0794uavdty/greater_love_2027.mp3) |
+| 77 | **Hallelujah Burton** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/w9/d9/w9d9cju2dqr4rs6sti7pfot9yehxeh7p84imd83r/hallelujah_burton.mp3) |
+| 78 | **2020 09 Hark All Ye Nations Day** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2f/42/2f42a3fe0ac56dc8c6eacad62addc31fcbbeae7f/hark_all_ye_nations_rasband.mp3) |
+| 79 | **2021 03 He Is Risen** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3f/65/3f654b9d231fa5ba13a42529c5658d5d68634618/he_is_risen_youth_music_festival_2021.mp3) |
+| 80 | **He Reigns** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3e/66/3e66ab4e4855b1d2895307ad726ee5f785852ad9/youth_theme_2021_he_reigns_instrumental.mp3) |
+| 81 | **2021 03 He Reigns** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/79/04/7904d8ae78c1f9e7ec2bea585ffbfcd003759722/2021_youth_music_festival_he_reigns.mp3) |
+| 82 | **He Still Chose Me 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c3/da/c3da84262b0611ee9530eeeeac1e83e22b2bbde7/he_still_chose_me_instrumental_2024.mp3) |
+| 83 | **He Taught Us To Love** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e6/95/e6951e137149951d77a5bcd34fd4e04ac3447edc/he_taught_us_to_love.mp3) |
+| 84 | **He Will Never Change** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/f9/2b/f92b9abf58f6702e0ecb59e07c0bfcd0e56c413e/he_will_never_change_feat_claire_quigleymusic_only.mp3) |
+| 85 | **He Wont Let Me Down 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/6h/kj/6hkjfifa3zrak6eendxbbn21inhnv8bg94wt95ek/he_wont_let_me_down_instrumental_2026.mp3) |
+| 86 | **Healer** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/40/e1/40e16e784bb211ecb7d1eeeeac1efdb2a711cd62/healer_accompaniment.mp3) |
+| 87 | **Healing Water** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/eb/45/eb459394b0e55e4cdd9320f6a52aa5c3cec10a8c/healing_water_minus_track.mp3) |
+| 88 | **2021 11 Hear Him** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/58/bb/58bbde5a3d7511eca29deeeeac1e03f95ebc2092/2021_11_hear_him_eng.mp3) |
+| 89 | **Hear It From You** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/78/37/7837dd6f9092a52c41155dd8de3453e887a9421e/hear_it_from_you.mp3) |
+| 90 | **He Will Be There 2023** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/07/8f/078f13ca391f11ed81d3eeeeac1e775cfc32c704/hell_be_there_2023_acc.mp3) |
+| 91 | **He Will Be There 2023** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/07/8f/078f13ca391f11ed81d3eeeeac1e775cfc32c704/hell_be_there_2023_acc.mp3) |
+| 92 | **Here I Am Again** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/10/69/1069aff01fca11ed833ceeeeac1e5af1a97e7936/here_i_am_again_instrumental.mp3) |
+| 93 | **Hide** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a7/36/a73693338147061ee2a3e4775aef27a9643801fb/hide_2019_youth_album.mp3) |
+| 94 | **Hide Arp299** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b1/45/b145860956c9762d3a500fc994b449a9cfbbfead/hide_strong_remixes.mp3) |
+| 95 | **Highs And Lows 2023** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/08/3f/083f29ec391f11ed98d8eeeeac1ec93658b01086/highs_and_lows_2023_acc.mp3) |
+| 96 | **His Kindness In Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/81/74/8174f215bf1cfd9dd640a006ecc4926a407ac3cd/youth_theme_2021_his_kindness_in_me_instrumental.mp3) |
+| 97 | **2021 03 His Kindness In Me Bea** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b4/46/b446b7f001ef353d5dd9f2ddb664dddbcce686c8/2021_youth_music_festival_his_kindness_in_me.mp3) |
+| 98 | **2021 03 His Kindness In Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/57/62/57624060406f4b2229e4745a22a1cf6ad18da686/his_kindness_in_me_tagalog_youth_music_festival_2021.mp3) |
+| 99 | **His Kingdom 2026** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3qj5rhvanjobmskjmeudbqkqtjjw4bt9z7ledqxv-256k-en.mp3) |
+| 100 | **His Name** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c7/08/c708669aae8534c7f4f0c242ee71c36005557fb4/his_name_2019_youth_album.mp3) |
+| 101 | **His Work 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ce/36/ce3627ed0e2111ef9f6eeeeeac1e85f661259efb/his_work_2025.mp3) |
+| 102 | **2021 11 Hold On To Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/5b/7e/5b7e32a63d7511ec8ef9eeeeac1e99aa2070105d/2021_11_hold_on_to_me_eng.mp3) |
+| 103 | **How Is It Done 2023** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/09/3f/093f5bde391f11ed865deeeeac1eb3027e75990d/how_is_it_done_2023_acc.mp3) |
+| 104 | **2021 03 Son Of God** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/47/5b/475b2b32e75345807101d2f593e41b6c8c82c038/son_of_god_acoustic_youth_music_festival_2021.mp3) |
+| 105 | **I Am A Son Of God** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/bb/17/bb17f1507962e9ff7afa7aab453f688bbac6b051/youth_theme_2021_i_am_a_son_of_god_instrumental.mp3) |
+| 106 | **I Can Be That Light Cenatiempo** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/51/66/51663588ce1511eb907feeeeac1eda9852cc32e7/i_can_be_that_light_cenatiempo_eng.mp3) |
+| 107 | **I Can Do All Things 2023** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/09/d7/09d77d2a391f11edbe7feeeeac1e307e6b22b5b7/i_can_do_all_things_2023.mp3) |
+| 108 | **I Can Do All Things Reimagined 2023** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d5/76/d576b0a745c611ed8086eeeeac1ed532ac7017d2/i_can_do_all_things_2023_male_instrumental.mp3) |
+| 109 | **I Choose You Emolyn** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/8f/82/8f8260990c7411ee9bbbeeeeac1ece4f80885f76/i_choose_you_sadie_2023.mp3) |
+| 110 | **I Choose You 2023** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0b/8e/0b8e2dd6391f11ed85faeeeeac1e25ba4be3251e/i_choose_you_2023.mp3) |
+| 111 | **I Have You Lounsbury** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/4c/03/4c03d69c346311edb393eeeeac1e7977893d4112/i_have_you_lounsbury_vocal.mp3) |
+| 112 | **I Hear His Voice** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3a/fe/3afe6be8bc3c9c856143b87cb8824af275de016e/i_hear_his_voice_minus_track.mp3) |
+| 113 | **2016 03 I Know That My Redeemer Lives** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c5/f9/c5f920907576cee4cff98bf7afb7904450c4bc07/i_know_that_my_redeemer_lives.mp3) |
+| 114 | **I Need Him** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/40/6d/406d01a64bb211ecb760eeeeac1ede2955b55cf4/i_need_him_accompaniment.mp3) |
+| 115 | **I Need Your Strength 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cf/0b/cf0b794c0e2111efba21eeeeac1e2fdb576230ad/i_need_your_strength_instrumental_2025.mp3) |
+| 116 | **I Surrender** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/40/1b/401bd4654bb211ecb760eeeeac1ede29c4c5b0f1/i_surrender_accompaniment.mp3) |
+| 117 | **I Will** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c4/eb/c4eb1975db14b71f7e1dc0196cd707c81f639383/youth_theme_2021_i_will_instrumental.mp3) |
+| 118 | **2020 11 I Will** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a7/2b/a72b24f5a03c4eba5a4cfd2c4e2d80b3f04c1dc4/i_will_young_women_f2f.mp3) |
+| 119 | **2021 03 I Will** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2c/d4/2cd44c938a7ea69e829aaf6c679c751349ea82db/2021_youth_music_festival_i_will.mp3) |
+| 120 | **I Will Follow Him** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/94/d3/94d3524b568b6177bba0808cd936215c16fb6cad/i_will_follow_him.mp3) |
+| 121 | **I Will Follow Him Arp299** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/fe/8d/fe8d4230a8215e1017623f0c92e267ad31b5af8b/i_will_follow_him_strong_remixes.mp3) |
+| 122 | **I Will Go And Do** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9b/31/9b3125a2f1b3870b1c69f7089ae45f27360ea478/i_will_go_and_do_2020_youth_theme_song_feat_david_archuletamusic_only.mp3) |
+| 123 | **I Will Go And Do Choir** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d3/d0/d3d0a9d38422b70b8194a897c1acc4bc118cacf7/i_will_go_and_do_female_version_feat_mikee_misalucha_and_filipino_youth_choirmusic_only.mp3) |
+| 124 | **2019 11 I Will Walk With Jesus** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/58/eb/58ebf9f9403bf46ba3dc0af4f0c049ef97f787f1/i_will_walk_with_jesus.mp3) |
+| 125 | **2020 07 I Will Go And Do** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/78/ba/78ba7c1312d0e2a898e25b1e0d6623d96e1a6ea8/i_will_go_and_do_music_festival.mp3) |
+| 126 | **If You Believe** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/75/d2/75d22b4add786882fe92527e2070b2172ebdf0ba/if_you_believe_instrumental.mp3) |
+| 127 | **2021 03 If You Believe** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ef/50/ef50d9579f9e42100c291633d434a4a411ced2d9/if_you_believe_spanish_youth_music_festival_2021.mp3) |
+| 128 | **2021 03 If You Believe Crowe** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/15/e4/15e431f1fb4111ec5403a35e73b47923ab9b3522/2021_youth_music_festival_if_you_believe.mp3) |
+| 129 | **If You Believe** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/75/d2/75d22b4add786882fe92527e2070b2172ebdf0ba/if_you_believe_instrumental.mp3) |
+| 130 | **If You Believe Ellie 2023** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/02/0c/020cfd23e16b11eea657eeeeac1ef46c0fc9cae8/if_you_believe_2023_acc.mp3) |
+| 131 | **If We Forget Ourselves** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3d/ed/3deda36ec83e89ac60d40332b223beb84f518969/if_we_forget_ourselves.mp3) |
+| 132 | **If We Love Him** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e3/03/e3038a935f1fa47b806d1a9d1bb450e3ab926484/if_we_love_him_2019_youth_album_female.mp3) |
+| 133 | **If We Love Him Male** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2a/b2/2ab2c4950ddf01369322c66aa0dbf5071da8dcbb/if_we_love_him_2019_youth_album_male.mp3) |
+| 134 | **If We Love Him Arp299** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/20/eb/20eb8877c2c00181e9132a93d3c12b20ead98027/if_we_love_him_strong_remixes.mp3) |
+| 135 | **Ill Hold On 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/p2/i9/p2i91jmg8yhkezci14xtqfpgazhf512qslx40n8b/ill_hold_on_instrumental_2026.mp3) |
+| 136 | **Ill Hold On 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/p2/i9/p2i91jmg8yhkezci14xtqfpgazhf512qslx40n8b/ill_hold_on_instrumental_2026.mp3) |
+| 137 | **2021 11 Ill Never Forget** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/5e/a2/5ea2085e3d7511ecac35eeeeac1e7c59ad2ef7cc/2021_11_ill_never_forget_eng.mp3) |
+| 138 | **Im Changed** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/99/24/9924b3f0c9c54885fcc7621ee4c94f4b2ae35b4f/im_changed.mp3) |
+| 139 | **It Is Glorious Tarbet Pearson** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3d/11/3d11926822ff11edb765eeeeac1eac1c4f7ba9ea/it_is_glorious_eng.mp3) |
+| 140 | **Its A Good Start** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c7/cf/c7cf74ccdae5d9ea6b1229743b7e8fcdfdc0ac19/its_a_good_start.mp3) |
+| 141 | **Its Not About You** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/04/5e/045ed8c11bbe5380ad000e263955e2dcb74dec7d/its_not_about_you.mp3) |
+| 142 | **Its Not Hopeless** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1fb22cf4c8e511ed9f4ceeeeac1e3360428ac841-256k-en.mp3) |
+| 143 | **Joy Of Life** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a4/10/a410bcb9d412a82692db74ba43c314cd900704c6/joy_of_life.mp3) |
+| 144 | **Just A Feeling** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/51/e8/51e82e24f6875679ecba3071edcb80bd24172d94/just_a_feeling_2019_youth_album.mp3) |
+| 145 | **Lift Me Up With Your Light 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cf/30/cf30db970e2111efab05eeeeac1eed2ca811abca/lift_me_up_with_your_light_instrumental_2025.mp3) |
+| 146 | **Light My Way** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3f/e1/3fe1ffb64bb211ec996deeeeac1e0d02b2af23bf/light_my_way_accompaniment.mp3) |
+| 147 | **Light Of The World Day** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/95/ee/95eeda3ea94244e1683ee1ff1f562d1d54cbc223/light_of_the_world_feat_talin_everettmusic_only.mp3) |
+| 148 | **Light The Way 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cf/a5/cfa5484b0e2111ef9cf6eeeeac1ebd085807c849/light_the_way_instrumental_2025.mp3) |
+| 149 | **Like A Child Arp299** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/dc/13/dc13f494d23d28f035a0f3ed50486b0fb26455e9/like_a_child_strong_remixes.mp3) |
+| 150 | **Like A Child** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ee/1c/ee1cc6c1b9e50309527e20fd7c96be874fff939f/like_a_child.mp3) |
+| 151 | **2020 07 Like Him** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/dc/4d/dc4dae68cb82555790c0cec4d06dab7052f7026c/like_him_music_festival.mp3) |
+| 152 | **Like Him** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/4b/b7/4bb726b048cb0975ec7c847ca276276e2d533cac/like_him_feat_aaliyah_rosemusic_only.mp3) |
+| 153 | **Listening** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a8/0b/a80bbbe1ddce6a46c089952b582adf2bb8470d78/listening_feat_je_eun_junmusic_only.mp3) |
+| 154 | **Little Things Boothe Hobbs** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ca/fe/cafe4943ec253dc59ae88cccf2f0297120d5361c/little_things.mp3) |
+| 155 | **Live Forever** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/af/3a/af3ade5a85e1c78c78d29cbb8e38e19dbfb9e6aa/live_forever_feat_liahona_olayanmusic_only.mp3) |
+| 156 | **Living Water 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cd/76/cd76b0d82b0611eea906eeeeac1e01f6ad579d0b/living_water_instrumental_2024.mp3) |
+| 157 | **Lonely** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/8a/58/8a58e8a925eb6b2b60014d56fe00e8595785817a/lonely_feat_case_ruttermusic_only.mp3) |
+| 158 | **Look To You** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3f/ae/3fae6ca64bb211ec9f8eeeeeac1e5f65feb24c60/look_to_you_accompaniment.mp3) |
+| 159 | **Look Unto Christ 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d0/28/d0280cd30e2111efa8e1eeeeac1e110b3ac5b9fc/look_unto_christ_instrumental_2025.mp3) |
+| 160 | **Look Unto Christ Male 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/se/ac/seactx0av228jdbxuodqc8w0pzbfm8vyjnsdqpg1/look_unto_christ_male_instrumental_2025.mp3) |
+| 161 | **Look Up** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ce/98/ce984b2cddafc820a7068aa3d5ac4836553e4f3e/look_up.mp3) |
+| 162 | **2020 11 Lord I Would Follow Thee** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/7a/93/7a93f0fba4e57c64fd7b2abd4dc7e89a16cdcc93/lord_i_would_follow_thee_yw_f2f.mp3) |
+| 163 | **2020 07 Light Of The World** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/35/c0/35c0c2414f6d538e38c698d2ef89bc0d3175a848/luz_del_mundo_music_festival.mp3) |
+| 164 | **Made By God 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/h0/hx/h0hxsewla875o72w2ume6yb3vbhz7ypieuqycefe/made_by_god_instrumental_2026.mp3) |
+| 165 | **Made By God 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/h0/hx/h0hxsewla875o72w2ume6yb3vbhz7ypieuqycefe/made_by_god_instrumental_2026.mp3) |
+| 166 | **Merciful** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/34/61/3461bf731987176d9260da82c9154d41506e9bc2/merciful_2019_youth_album.mp3) |
+| 167 | **My Promise To You 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/fo/mk/fomk2j5lz007851gr17g9h65jutytmkgaqsfsrhs/my_promise_to_you_2025.mp3) |
+| 168 | **My Savior My Friend** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/el/o9/elo9tygee2cirfduwf35kwljnmmegbgsgwunompo/my_savior_my_friend_webb.mp3) |
+| 169 | **More Of You 2026** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ihu2vz3t2yexf4g08lp9k9627ywer34oftobtqz7-256k-en.mp3) |
+| 170 | **Mountains To Climb** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9f/f9/9ff91fa89d0eda64a32de6cf7fd41c1ac1aa5b74/mountains_to_climb.mp3) |
+| 171 | **Moving The Mountains 2026** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/uf0caylf5s9q09ge52nkb27rzzlrfcplbzl39rq4-256k-en.mp3) |
+| 172 | **Never Ends** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/52/bd/52bd5833bc1b015bd9d0a1944355647d91abb7b7/never_ends_2019_youth_album.mp3) |
+| 173 | **Never That Bad** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/4c/6e/4c6e8f84f77708f52c3bd8353430f88c4427dabd/youth_theme_2021_never_that_bad_instrumental.mp3) |
+| 174 | **2021 03 Never That Bad** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/43/ab/43abda71c0b823b9206e8c7d635e1b1d551bf923/2021_youth_music_festival_never_that_bad.mp3) |
+| 175 | **Next To Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/81/1b/811b49d8121011ee8d78eeeeac1e70c7235d45a0/next_to_me_2023_acc.mp3) |
+| 176 | **No Apologies 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d0/8e/d08e21af0e2111efbc6ceeeeac1ee93d8c373eb2/no_apologies_instrumental_2025.mp3) |
+| 177 | **No Stranger** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/dd/c2/ddc2de83e92911ed836deeeeac1e8add78c5eb8e/no_stranger_2023.mp3) |
+| 178 | **One By One Day** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a6/08/a60877cae083c5a7d20d51cb6e157a0d74b31a37/2018_mutual_music_hear_it_from_you.mp3) |
+| 179 | **One Soul** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/30/1e/301e104e24fb3ef77c4ce8fac4b5abf04f3112b6/youth_theme_2021_one_soul_instrumental.mp3) |
+| 180 | **2021 03 One Soul** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a1/e4/a1e41970b07037f09ac158de935aa27237278e49/2021_youth_music_festival_one_soul.mp3) |
+| 181 | **One True Hope 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d8/e3/d8e309a62b0611ee999feeeeac1e944fc296c69c/one_true_hope_instrumental_2024.mp3) |
+| 182 | **Over Mine 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e3/0d/e30dbab72b0611eea7efeeeeac1e74ed1c757dbd/over_mine_instrumental_2024.mp3) |
+| 183 | **Over Mine 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e3/0d/e30dbab72b0611eea7efeeeeac1e74ed1c757dbd/over_mine_instrumental_2024.mp3) |
+| 184 | **Peace In Christ Male** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/cd/10/cd10866aef2a3874138d7d7498274bf3c9aa98a4/peace_in_christ.mp3) |
+| 185 | **2020 07 Peace In Christ** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/79/37/793791fe479ed7ae5c090d7382463a9fbb98b4b9/peace_in_christ_music_festival.mp3) |
+| 186 | **Peace In Christ** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e6/d7/e6d7de87d6878dc2148e3fb70550af888649f29c/peace_in_christ.mp3) |
+| 187 | **Perfection Pending Christensen** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ez/6u/ez6uuqsbke1o8o31m1xk0y2c3utcukhml5op0nun/perfection_pending.mp3) |
+| 188 | **Pillar Of Light** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c1/94/c19440f3aee8a7be48d11faf8effc60b438ad71c/pillar_of_light_feat_grant_lemonmusic_only.mp3) |
+| 189 | **Possible With Him** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3f/92/3f92f5724bb211ec8f57eeeeac1eedb6adc81e0e/possible_with_him_accompaniment.mp3) |
+| 190 | **2020 07 Praise To The Lord The Almighty** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/64/be/64be7a602e56d7056e992135bd890e15de91921c/praise_to_the_lord.mp3) |
+| 191 | **Priceless** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ad/db/addbc5ff0c10fae112e52fa40406374397b4ee6f/priceless_minus_track.mp3) |
+| 192 | **2020 07 What Does He Think Abreu** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2a/ca/2acadc7b0fd39dd2e3438cdf8d3c147a68a866b2/what_does_he_think_music_festival.mp3) |
+| 193 | **Reaching Out** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/dd/2c/dd2c968a5bf60849cd55b065723536b54a40c2da/reaching_out_feat_isabella_hixsonmusic_only.mp3) |
+| 194 | **2020 11 Redeemer Of Israel** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/db/5f/db5f226a16c3a8b9fa76592bb675b584493379df/redeemer_of_israel_young_women_f2f.mp3) |
+| 195 | **Rescue Me 2026** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/oy/u1/oyu1lbta695hjy1j98zbm7k3tcg55vkkayj8gypr/rescue_me_2027.mp3) |
+| 196 | **Rest** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/73/64/7364d23b75dba3ce64597c37fba6507631523b7d/rest_2019_youth_album.mp3) |
+| 197 | **Rise Malizia** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/lc/ib/lcib1k1zvbdkvesr1ke93fbdpho4sxyvvzd2bx2a/rise.mp3) |
+| 198 | **2016 03 Rock Of Ages** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/04/1d/041d769ac5195ce95256a10dc2abf3d8f4e7eb5b/rock_of_ages.mp3) |
+| 199 | **Saved Through Jesus 2027** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ej/u7/eju7sq5mtyf8xbn3omq09b6vgvd4dsxx56ptb4pc/saved_through_jesus.mp3) |
+| 200 | **Savior Of My Soul 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ed/c2/edc283542b0611ee97c0eeeeac1e7acbf983526c/savior_of_my_soul_instrumental_2024.mp3) |
+| 201 | **Send Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3e/fa/3efa10d04bb211ec9f71eeeeac1eea779125fd7c/send_me_accompaniment.mp3) |
+| 202 | **Serve The Lord** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3e/98/3e9841aa4bb211ec80e1eeeeac1e58a3c6bbf5ad/serve_the_lord_accompaniment.mp3) |
+| 203 | **Simon Of Cyrene Reece Blomberg** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/5c/9b/5c9bc6c2ce1511ebad82eeeeac1e2913cbaccd26/simon_of_cyrene_reece_blomberg_eng.mp3) |
+| 204 | **Small Things** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/98/69/986925d5d359e0e61acf6dfb9d1e9ebc98d9acab/small_things_youth_music_instrumental.mp3) |
+| 205 | **2021 03 Small Things** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ee/25/ee25ab7d022f579a710580e40917bc57abb831ca/small_things_acoustic_youth_music_festival_2021.mp3) |
+| 206 | **Speak To Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3e/3e/3e3e3ac54bb211ec996deeeeac1e0d02be191e57/speak_to_me_accompaniment.mp3) |
+| 207 | **Stand** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3c/1a/3c1af117373f45580faad6add594609096a25200/stand.mp3) |
+| 208 | **Stand Strong 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/i9/xw/i9xwetaecy355vallwxwsecroqtlmvorvucmqzym/stand_strong_2025.mp3) |
+| 209 | **Stand Strong 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/i9/xw/i9xwetaecy355vallwxwsecroqtlmvorvucmqzym/stand_strong_2025.mp3) |
+| 210 | **Sticks And Stones 2023** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0b/eb/0bebde3b391f11ed839eeeeeac1e48dc06d5a859/sticks_and_stones_2023.mp3) |
+| 211 | **Still And Quiet Moments** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/67/16/6716c70969e65812c14f1005bc232820bcee85d6/still_and_quiet_moments.mp3) |
+| 212 | **Strong** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/e8/51/e851f097d7629e08e51e30eba4635e0f6a528ca3/strong.mp3) |
+| 213 | **Strong Arp299** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/8f/5f/8f5f3c382dafb1759875e9349875e5fb1b4bdaed/strong_remixes.mp3) |
+| 214 | **2020 07 Strong** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/37/6e/376e0984587302eefc86bfb9b3bd970585932aa6/strong_music_festival.mp3) |
+| 215 | **Stronger** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/a5/46/a546a1e200cd11efa10beeeeac1eaef810537605/stronger_instrumental_2024.mp3) |
+| 216 | **Thats How Ill Be** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/03/74/03740293735400525ebc37f82b77269c4319bd9c/thats_how_ill_be.mp3) |
+| 217 | **The Body Of Christ** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/fc/96/fc9655ce3a984c310a4e899917862fbd54f5433e/the_body_of_christ.mp3) |
+| 218 | **The Good The Bad 2026** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/7v/te/7vte7aztoz6w11h7ibain68dogthnrfsf0e47dwl/the_good_and_the_bad_2027.mp3) |
+| 219 | **The Heavens Are Open Harris Murphy** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/63/95/6395d17cce1511eb8a4eeeeeac1e275e5cd36801/the_heavens_are_open_harris_murphy_eng.mp3) |
+| 220 | **2018 09 The Morning Breaks Potter Elwood** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/6c/71/6c71f6acd2c7aa63fe53d4a9047a04c7f05ec58a/the_morning_breaks.mp3) |
+| 221 | **The Only One 2023** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0c/ac/0cace44d391f11edb94ceeeeac1ebbbde34f1593/the_only_one_2023_acc.mp3) |
+| 222 | **The Unknown Arp299** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/5b/a6/5ba6ee6bcd2e3185795665965496e14aebf1d461/the_unknown_strong_remixes.mp3) |
+| 223 | **The Unknown** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/68/05/6805dc77766edb8509511e8b4be693c319b80efd/the_unknown.mp3) |
+| 224 | **Thy Will Be Done** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/31/2a/312afe718791ef135db968b49f09cc994cd514a0/2018_mutual_music_like_a_child.mp3) |
+| 225 | **2017 03 Thy Will Be Done** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b7/f7/b7f7899a0bf06dae43c8d835ca668bd3434ea85e/thy_will_be_done.mp3) |
+| 226 | **Together** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2d/df/2ddfd88821a111ee9be7eeeeac1e65aa8c35a423/together_2023.mp3) |
+| 227 | **Trust In The Lord** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/3e/17/3e17a0174bb211ecb7d1eeeeac1efdb2259969e5/trust_in_the_lord_accompaniment.mp3) |
+| 228 | **Truth 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/f8/35/f835fd322b0611eeb4daeeeeac1e3a86f7f34196/truth_instrumental_2024.mp3) |
+| 229 | **Truth 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/f8/35/f835fd322b0611eeb4daeeeeac1e3a86f7f34196/truth_instrumental_2024.mp3) |
+| 230 | **Unchanging Truths Flake** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/66/d4/66d4a8c9ce1511eb907feeeeac1eda9886fe5581/unchanging_truths_flake_eng.mp3) |
+| 231 | **Walk With Me Reimagined 2026** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/l0hux97srrntnyv44e3qg3k6995b1fq0807c0jc3-256k-en.mp3) |
+| 232 | **Walk With Me 2026** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/b56xoqfitzef010ujas2jfguj6f90dmafd5hzddc-256k-en.mp3) |
+| 233 | **We Know His Name** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/c8/54/c854046aedf609e2dbdca92f9ce94467fdffd896/youth_theme_2021_we_know_his_name_instrumental.mp3) |
+| 234 | **2021 03 We Know His Name** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/d4/69/d4693a79e48914d59833ab673f0a434a8781d5b3/2021_youth_music_festival_we_know_his_name.mp3) |
+| 235 | **2017 03 We Thank Thee O God For A Prophet Lowe** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/1e/b5/1eb5163743a235f0066414322ba8e6aba03367bd/we_thank_thee_o_god_for_a_prophet.mp3) |
+| 236 | **Well Be There** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/27/32/27324a099e18a08ba0dee4e3062561fbc64d9fd9/well_be_there.mp3) |
+| 237 | **What Does He Think** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/89/f7/89f7bbcbda5e1fc616e8d438846da2b96ab5692e/what_does_he_think_feat_ammon_olayan_and_liahona_olayanmusic_only.mp3) |
+| 238 | **What Family Means To Me** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/00/6c/006c45b62422b9c1c2ca780dcf171dce7fb378ef/what_family_means_to_me_minus_track_eng.mp3) |
+| 239 | **What Is This Joy 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/f3/31/f331b508388d11efa0d1eeeeac1e4c5b152b879f/what_is_this_joy_2024.mp3) |
+| 240 | **What Is This Joy 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/f3/31/f331b508388d11efa0d1eeeeac1e4c5b152b879f/what_is_this_joy_2024.mp3) |
+| 241 | **When I Found You 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0a/c0/0ac08a6a2b0711eea81ceeeeac1e2639e8512ff6/when_i_found_you_instrumental_2024.mp3) |
+| 242 | **When The Time Is Right** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/03/42/03420d989a33990f3c07d07e15909d7fe5bb65bb/when_the_time_is_right.mp3) |
+| 243 | **2016 03 Where Can I Turn For Peace** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/6e/a6/6ea6ec7e214e4384d02df5e372541710feb4acc4/where_can_i_turn_for_peace.mp3) |
+| 244 | **Where I Stand Kaelin** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/6b/78/6b78192cce1511ebac3beeeeac1e85b6be226c5a/where_i_stand_kaelin_eng.mp3) |
+| 245 | **Wherever You Go** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2d/95/2d95c3e3c86f47b6bf0c5cc7bc0bc43fddcbed25/wherever_you_go.mp3) |
+| 246 | **Who Will** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/9b/4b/9b4b56c6ccc6858b5bc9014ec0543c5c69dbb197/who_will.mp3) |
+| 247 | **Witness 2023** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0d/8f/0d8f550b391f11ed81d3eeeeac1e775cbe0a98c9/witness_2023_acc.mp3) |
+| 248 | **Your Love Reminds Me 2023** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0e/21/0e210db5391f11ed83adeeeeac1e0751127e1415/your_love_reminds_me_2023_acc.mp3) |
+| 249 | **Your Melody 2025** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/i2/ag/i2agb5ij7i4vke8dkm6tismge20wh848ckoqu3rk/your_melody_2025.mp3) |
+| 250 | **Your Presence 2026** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/ylvlwxozydmn7mvix1zr4euleie7dm2tkn1esq5j-256k-en.mp3) |
+| 251 | **Your Voice** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/2b/ff/2bff80138db175ed948b88999ae60663f5879d11/youth_theme_2021_your_voice_instrumental.mp3) |
+| 252 | **2021 03 Your Voice** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/74/5b/745b784c4e4a1fa2a956caaf25b19b43b79530e8/2021_youth_music_festival_your_voice.mp3) |
+| 253 | **Youre Not Your Mistakes** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/0e/29/0e2939e98b17cce3dbbd983f4584bd509d3fd746/you_are_not_your_mistakes_2019_youth_album.mp3) |
+| 254 | **Youre Not Your Mistakes Arp299** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/7d/51/7d51cf29f50f0e92ee827c0e601ad45b6eb7fc53/not_your_mistakes_strong_remixes.mp3) |
+| 255 | **Youth Theme Medley 2024** | [Stream/Download Audio Asset](https://assets.churchofjesuschrist.org/7d/d2/7dd219e1822711ed8d03eeeeac1ea908883fc95a/2022_youth_theme_medley.mp3) |
 
 
