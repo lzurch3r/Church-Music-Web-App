@@ -14,7 +14,7 @@
             --text-dark: #2c3e50;
             --text-muted: #7f8c8d;
             --border-color: #e2e8e2;
-            --dock-height: 80px;
+            --dock-height: 90px;
             --card-shadow: 0 4px 6px rgba(0,0,0,0.01);
             --card-hover-shadow: 0 6px 12px rgba(0,0,0,0.05);
         }
@@ -46,7 +46,7 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            padding-bottom: calc(var(--dock-height) + 40px);
+            padding-bottom: calc(var(--dock-height) + 50px);
         }
 
         header {
@@ -170,15 +170,6 @@
 
         .auth-dropdown-footer:hover { color: var(--accent-color); }
 
-        .user-badge {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            max-width: 120px;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
-
         /* Responsive Main Layout Split Workspace */
         .workspace {
             max-width: 1400px;
@@ -296,6 +287,7 @@
         .action-btn:hover { background-color: rgba(0,0,0,0.05); color: var(--accent-color); }
         .remove-btn:hover { color: #e74c3c !important; }
 
+        /* Integrated Advanced Media Controls Framework Drawer Block */
         .audio-player-dock {
             position: fixed;
             bottom: 0;
@@ -321,21 +313,61 @@
             gap: 20px;
         }
 
-        .current-meta { display: flex; flex-direction: column; width: 25%; min-width: 150px; }
+        .current-meta { display: flex; flex-direction: column; width: 22%; min-width: 150px; }
         #dock-title { font-size: 0.95rem; font-weight: 600; color: var(--text-dark); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         #dock-collection { font-size: 0.8rem; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        audio { width: 70%; height: 40px; }
+        
+        .dock-center-controls {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            flex-grow: 1;
+            max-width: 60%;
+        }
 
+        .media-btn-row {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .media-ctrl-btn {
+            background: none;
+            border: none;
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            cursor: pointer;
+            padding: 6px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .media-ctrl-btn:hover { background-color: rgba(0,0,0,0.04); color: var(--accent-color); }
+
+        audio { width: 100%; height: 32px; }
         [data-theme="dark"] audio { filter: invert(0.9) hue-rotate(180deg); }
+        
+        .dock-right-actions {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 18%;
+            min-width: 110px;
+        }
+
         #file-input { display: none; }
 
         @media (max-width: 768px) {
             .header-container { flex-direction: column; align-items: flex-start; }
             .header-controls { max-width: 100%; }
-            .player-container { flex-direction: column; gap: 5px; }
+            .player-container { flex-direction: column; gap: 8px; }
             .current-meta { width: 100%; text-align: center; }
-            audio { width: 100%; height: 32px; }
-            :root { --dock-height: 105px; }
+            .dock-center-controls { max-width: 100%; width: 100%; }
+            .dock-right-actions { width: 100%; justify-content: center; }
+            audio { height: 28px; }
+            :root { --dock-height: 145px; }
         }
     </style>
 </head>
@@ -352,11 +384,9 @@
                     <span id="theme-icon">🌙</span> <span id="theme-text">Dark Mode</span>
                 </button>
                 
-                <!-- Account Interface Layer Hooks -->
                 <div class="auth-container">
                     <button class="btn btn-primary" id="auth-panel-btn" onclick="toggleAuthDropdown()">Account</button>
                     <div class="auth-dropdown" id="auth-dropdown">
-                        <!-- Contextually rendered sign-in forms view or signed-in state container -->
                         <div id="auth-unauthenticated">
                             <h4 id="auth-form-title" style="margin-bottom:12px;">Sign In</h4>
                             <input type="email" id="auth-email" placeholder="Email Address">
@@ -402,18 +432,28 @@
                 <span id="dock-title">No Song Selected</span>
                 <span id="dock-collection">Select a track to play</span>
             </div>
-            <audio id="main-audio-player" controls autoplay src=""></audio>
+            
+            <div class="dock-center-controls">
+                <div class="media-btn-row">
+                    <button class="media-ctrl-btn" title="Previous Track" onclick="handleMediaSkip(-1)">⏮</button>
+                    <button class="media-ctrl-btn" title="Rewind 10 Seconds" onclick="handleMediaSeek(-10)">⏪ 10s</button>
+                    <button class="media-ctrl-btn" title="Fast Forward 10 Seconds" onclick="handleMediaSeek(10)">10s ⏩</button>
+                    <button class="media-ctrl-btn" title="Next Track" onclick="handleMediaSkip(1)">⏭</button>
+                </div>
+                <audio id="main-audio-player" controls autoplay src=""></audio>
+            </div>
+
+            <div class="dock-right-actions">
+                <button class="btn btn-primary" style="padding: 6px 12px; border-radius: 14px; font-size: 0.8rem;" onclick="addActiveDockTrackToPlaylist()">+ Add to Playlist</button>
+            </div>
         </div>
     </div>
 
-    <!-- Asynchronous Modern ES Module Import Bindings for Firebase SDK Core Features -->
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js";
         import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-auth.js";
         import { getFirestore, doc, setDoc, getDoc } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore.js";
 
-        // =============================================================
-        // paste your credentials generated inside the Firebase project portal here:
         const firebaseConfig = {
           apiKey: "AIzaSyCRvRg9Uxl4dt1JK-rkNmT9TNsdLhAicNs",
           authDomain: "church-music-web-app.firebaseapp.com",
@@ -423,9 +463,7 @@
           appId: "1:688733328036:web:65d6b6cf1079dd20c7cc31",
           measurementId: "G-JYML40MGKX"
         };
-        // =============================================================
 
-        // Core App Component Instances
         const app = initializeApp(firebaseConfig);
         const auth = getAuth(app);
         const db = getFirestore(app);
@@ -434,11 +472,14 @@
         let musicLibrary = {};
         let flatTrackList = [];
         let playlist = [];
+        
+        // Active Queue Control Boundaries
+        let currentPlaybackQueue = []; 
         let currentActiveItem = null;
         let currentUser = null;
         let isSignUpMode = false;
+        let selectedCollectionKey = null;
 
-        // Bridge engine access boundaries directly across global window DOM scope 
         window.toggleTheme = toggleTheme;
         window.filterTracks = filterTracks;
         window.toggleAuthDropdown = toggleAuthDropdown;
@@ -452,12 +493,17 @@
         window.removeFromPlaylist = removeFromPlaylist;
         window.exportPlaylist = exportPlaylist;
         window.importPlaylist = importPlaylist;
+        
+        // Expose New Media System Navigation Layers to the Browser Frame
+        window.handleMediaSkip = handleMediaSkip;
+        window.handleMediaSeek = handleMediaSeek;
+        window.addActiveDockTrackToPlaylist = addActiveDockTrackToPlaylist;
 
         document.addEventListener("DOMContentLoaded", () => {
             initTheme();
             loadAndParseMarkdown();
+            setupAudioLifecycleHook();
             
-            // Monitor real-time login state updates
             onAuthStateChanged(auth, (user) => {
                 if (user) {
                     currentUser = user;
@@ -471,10 +517,18 @@
                     document.getElementById('auth-panel-btn').textContent = "Account";
                     document.getElementById('auth-unauthenticated').style.display = 'block';
                     document.getElementById('auth-authenticated').style.display = 'none';
-                    loadLocalPlaylist(); // Fallback back into offline state storage arrays
+                    loadLocalPlaylist(); 
                 }
             });
         });
+
+        /* Wire up 'ended' track observer to catch complete streaming instances */
+        function setupAudioLifecycleHook() {
+            const player = document.getElementById('main-audio-player');
+            player.addEventListener('ended', () => {
+                handleMediaSkip(1); // Advance forward to next matching index in line
+            });
+        }
 
         /* Core Database Action Layers */
         async function savePlaylistState() {
@@ -496,11 +550,7 @@
             const docRef = doc(db, "playlists", uid);
             try {
                 const docSnap = await getDoc(docRef);
-                if (docSnap.exists()) {
-                    playlist = docSnap.data().tracks || [];
-                } else {
-                    playlist = [];
-                }
+                playlist = docSnap.exists() ? (docSnap.data().tracks || []) : [];
                 renderPlaylist();
             } catch (e) {
                 console.error("Could not fetch user database documents:", e);
@@ -561,7 +611,6 @@
             }
         }
 
-        /* Legacy Logic Layout Engines preserving UI design paths */
         function initTheme() {
             if (localStorage.getItem('theme') === 'dark') {
                 document.documentElement.setAttribute('data-theme', 'dark');
@@ -609,7 +658,7 @@
                 } else if (line.startsWith('|') && currentCollection) {
                     const columns = line.split('|').map(c => c.trim());
                     if (columns.length >= 4 && !columns[1].includes('#') && !columns[1].includes('---')) {
-                        const title = columns[2].replace(/\*\*/g, '').trim();
+                        const title = columns[2].replace(/\*\ Third/g, '').replace(/\*\*/g, '').trim();
                         const linkMatch = columns[3].match(/\((https?:\/\/[^\)]+)\)/);
                         if (title && linkMatch) {
                             const trackObj = { index: columns[1], title: title, url: linkMatch[1], collection: currentCollection };
@@ -631,6 +680,7 @@
         }
 
         function showCollection(bookTitle) {
+            selectedCollectionKey = bookTitle;
             const container = document.getElementById('tracks-container');
             document.getElementById('current-section-heading').textContent = bookTitle ? `📚 Directory: ${bookTitle}` : "📚 Directory: All Public Tracks Indexed";
             container.innerHTML = '';
@@ -639,6 +689,7 @@
             targetTracks.forEach((track, idx) => {
                 const div = document.createElement('div');
                 div.className = 'track-item';
+                div.id = `track-node-${track.url.replace(/[^a-zA-Z0-9]/g, '_')}`;
                 if (currentActiveItem && currentActiveItem.url === track.url) div.classList.add('active');
                 div.innerHTML = `
                     <div class="track-index">${idx + 1}</div>
@@ -654,26 +705,91 @@
         }
 
         function playDirectly(infoElement) {
-            document.querySelectorAll('.track-item').forEach(el => el.classList.remove('active'));
-            infoElement.parentElement.classList.add('active');
+            // Re-route tracking contexts based on the structural array active when clicked
+            if (infoElement.trackData.sourceContext === 'playlist') {
+                currentPlaybackQueue = [...playlist];
+            } else {
+                currentPlaybackQueue = selectedCollectionKey ? [...musicLibrary[selectedCollectionKey]] : [...flatTrackList];
+            }
             triggerAudioDock(infoElement.trackData);
         }
 
         function triggerAudioDock(track) {
             currentActiveItem = track;
+            
+            // Sync up UI active tracking classes inside workspace containers
+            document.querySelectorAll('.track-item').forEach(el => el.classList.remove('active'));
+            const cleanId = track.url.replace(/[^a-zA-Z0-9]/g, '_');
+            const targetNode = document.getElementById(`track-node-${cleanId}`);
+            if (targetNode) targetNode.classList.add('active');
+
             const player = document.getElementById('main-audio-player');
             document.getElementById('dock-title').textContent = track.title;
             document.getElementById('dock-collection').textContent = track.collection;
             player.src = track.url;
             player.load();
-            player.play();
+            player.play().catch(e => console.log("Playback interaction catch boundary invoked:", e));
         }
+
+        /* -------------------------------------------------------------
+           Media Control Pipeline Core Logics
+           ------------------------------------------------------------- */
+        
+        function handleMediaSkip(direction) {
+            if (currentPlaybackQueue.length === 0) {
+                // Default back to total active listing pool if tracking arrays are empty
+                currentPlaybackQueue = selectedCollectionKey ? [...musicLibrary[selectedCollectionKey]] : [...flatTrackList];
+            }
+            if (currentPlaybackQueue.length === 0) return;
+
+            // Find match by matching CDN streaming URL endpoint strings
+            let currentIdx = currentPlaybackQueue.findIndex(t => t.url === currentActiveItem?.url);
+            
+            if (currentIdx === -1) {
+                // Fallback index hook
+                currentIdx = 0;
+            } else {
+                currentIdx += direction;
+            }
+
+            // Boundary protection check wraps indices safely
+            if (currentIdx >= currentPlaybackQueue.length) {
+                currentIdx = 0; 
+            } else if (currentIdx < 0) {
+                currentIdx = currentPlaybackQueue.length - 1;
+            }
+
+            triggerAudioDock(currentPlaybackQueue[currentIdx]);
+        }
+
+        function handleMediaSeek(seconds) {
+            const player = document.getElementById('main-audio-player');
+            if (!player.src) return;
+            let targetTime = player.currentTime + seconds;
+            
+            // Boundary safeguards for buffer lengths
+            if (targetTime < 0) targetTime = 0;
+            if (targetTime > player.duration) targetTime = player.duration;
+            
+            player.currentTime = targetTime;
+        }
+
+        function addActiveDockTrackToPlaylist() {
+            if (!currentActiveItem) { alert("Select an active track to play first!"); return; }
+            addToPlaylist(null, currentActiveItem.url);
+        }
+
+        /* -------------------------------------------------------------
+           Playlist Management Controllers
+           ------------------------------------------------------------- */
 
         function addToPlaylist(event, trackUrl) {
             if (event) event.stopPropagation();
             const matchedTrack = flatTrackList.find(t => t.url === trackUrl);
             if (matchedTrack && !playlist.some(p => p.url === trackUrl)) {
-                playlist.push(matchedTrack);
+                // Ensure tracking objects inside playlist declare their origin sequence
+                const trackingClone = { ...matchedTrack, sourceContext: 'playlist' };
+                playlist.push(trackingClone);
                 savePlaylistState();
                 renderPlaylist();
             }
@@ -697,7 +813,7 @@
                 div.className = 'track-item';
                 div.innerHTML = `
                     <div class="track-index">${idx + 1}</div>
-                    <div class="track-info" onclick="triggerAudioDock(this.trackData)">
+                    <div class="track-info" onclick="playDirectly(this)">
                         <div class="track-title" style="font-size:0.9rem;">${track.title}</div>
                     </div>
                     <button class="action-btn remove-btn" title="Remove" onclick="removeFromPlaylist('${track.url.replace(/'/g, "\\'")}')">×</button>
@@ -726,7 +842,7 @@
                 try {
                     const parsedData = JSON.parse(e.target.result);
                     if (Array.isArray(parsedData)) {
-                        playlist = parsedData;
+                        playlist = parsedData.map(t => ({ ...t, sourceContext: 'playlist' }));
                         savePlaylistState();
                         renderPlaylist();
                         alert(`Imported ${playlist.length} tracks!`);
