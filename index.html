@@ -184,11 +184,15 @@
 
         @media (max-width: 1024px) { .workspace { grid-template-columns: 1fr; } }
 
+        .collections-section {
+            margin-bottom: 25px;
+        }
+
         .collections-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-            gap: 15px;
-            margin-bottom: 25px;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-top: 10px;
         }
 
         .book-card {
@@ -407,22 +411,25 @@
     </header>
 
     <div class="workspace">
-        <div>
-            <div class="collections-grid" id="collections-container"></div>
-            <div class="track-list-section">
-                <h2 class="section-title" id="current-section-heading">All Collections</h2>
-                <div id="tracks-container"></div>
-            </div>
+        <div class="track-list-section">
+            <h2 class="section-title" id="current-section-heading">All Collections</h2>
+            <div id="tracks-container"></div>
         </div>
 
-        <div class="playlist-section">
-            <h2 class="section-title">✨ My Playlist</h2>
-            <div class="playlist-actions">
-                <button class="btn" onclick="exportPlaylist()">📤 File Save</button>
-                <button class="btn" onclick="document.getElementById('file-input').click()">📥 File Load</button>
-                <input type="file" id="file-input" accept=".json" onchange="importPlaylist(event)">
+        <div>
+            <div class="collections-section">
+                <div class="collections-grid" id="collections-container"></div>
             </div>
-            <div id="playlist-container" style="padding: 10px 0;"></div>
+            
+            <div class="playlist-section">
+                <h2 class="section-title">✨ My Playlist</h2>
+                <div class="playlist-actions">
+                    <button class="btn" onclick="exportPlaylist()">📤 File Save</button>
+                    <button class="btn" onclick="document.getElementById('file-input').click()">📥 File Load</button>
+                    <input type="file" id="file-input" accept=".json" onchange="importPlaylist(event)">
+                </div>
+                <div id="playlist-container" style="padding: 10px 0;"></div>
+            </div>
         </div>
     </div>
 
@@ -658,7 +665,7 @@
                 } else if (line.startsWith('|') && currentCollection) {
                     const columns = line.split('|').map(c => c.trim());
                     if (columns.length >= 4 && !columns[1].includes('#') && !columns[1].includes('---')) {
-                        const title = columns[2].replace(/\*\ Third/g, '').replace(/\*\*/g, '').trim();
+                        const title = columns[2].replace(/\*\ Third/g, '').replace(/\*\**/g, '').trim();
                         const linkMatch = columns[3].match(/\((https?:\/\/[^\)]+)\)/);
                         if (title && linkMatch) {
                             const trackObj = { index: columns[1], title: title, url: linkMatch[1], collection: currentCollection };
